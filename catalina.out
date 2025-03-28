@@ -1,0 +1,543 @@
+[2025-03-28 10:22:30] [info] Server version name:   Apache Tomcat/9.0.70 (Debian)
+[2025-03-28 10:22:30] [info] Server built:          May 27 2023 15:51:32 UTC
+[2025-03-28 10:22:30] [info] Server version number: 9.0.70.0
+[2025-03-28 10:22:30] [info] OS Name:               Linux
+[2025-03-28 10:22:30] [info] OS Version:            6.8.4-2-pve
+[2025-03-28 10:22:31] [info] Architecture:          amd64
+[2025-03-28 10:22:31] [info] Java Home:             /usr/lib/jvm/java-17-openjdk-amd64
+[2025-03-28 10:22:31] [info] JVM Version:           17.0.14+7-Debian-1deb12u1
+[2025-03-28 10:22:31] [info] JVM Vendor:            Debian
+[2025-03-28 10:22:31] [info] CATALINA_BASE:         /var/lib/tomcat9
+[2025-03-28 10:22:31] [info] CATALINA_HOME:         /usr/share/tomcat9
+[2025-03-28 10:22:35] [info] Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+[2025-03-28 10:22:35] [info] Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+[2025-03-28 10:22:35] [info] Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+[2025-03-28 10:22:35] [info] Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+[2025-03-28 10:22:35] [info] Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+[2025-03-28 10:22:35] [info] Command line argument: -Djava.util.logging.config.file=/var/lib/tomcat9/conf/logging.properties
+[2025-03-28 10:22:35] [info] Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+[2025-03-28 10:22:35] [info] Command line argument: -Djava.awt.headless=true
+[2025-03-28 10:22:35] [info] Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+[2025-03-28 10:22:35] [info] Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+[2025-03-28 10:22:35] [info] Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+[2025-03-28 10:22:35] [info] Command line argument: -Dignore.endorsed.dirs=
+[2025-03-28 10:22:35] [info] Command line argument: -Dcatalina.base=/var/lib/tomcat9
+[2025-03-28 10:22:35] [info] Command line argument: -Dcatalina.home=/usr/share/tomcat9
+[2025-03-28 10:22:35] [info] Command line argument: -Djava.io.tmpdir=/tmp
+[2025-03-28 10:22:35] [info] Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.2].
+[2025-03-28 10:22:35] [info] APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[2025-03-28 10:22:35] [info] APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[2025-03-28 10:22:36] [info] OpenSSL successfully initialized [OpenSSL 3.0.15 3 Sep 2024]
+[2025-03-28 10:22:44] [info] Initializing ProtocolHandler ["http-nio-8080"]
+[2025-03-28 10:22:45] [info] Server initialization in [57940] milliseconds
+[2025-03-28 10:22:46] [info] Starting service [Catalina]
+[2025-03-28 10:22:46] [info] Starting Servlet engine: [Apache Tomcat/9.0.70 (Debian)]
+[2025-03-28 10:22:46] [info] Deploying deployment descriptor [/etc/tomcat9/Catalina/localhost/host-manager.xml]
+[2025-03-28 10:22:47] [warning] The path attribute with value [/host-manager] in deployment descriptor [/etc/tomcat9/Catalina/localhost/host-manager.xml] has been ignored
+[2025-03-28 10:22:58] [info] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-03-28 10:22:58] [warning] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [285] milliseconds.
+[2025-03-28 10:22:59] [info] Deployment of deployment descriptor [/etc/tomcat9/Catalina/localhost/host-manager.xml] has finished in [12,099] ms
+[2025-03-28 10:22:59] [info] Deploying deployment descriptor [/etc/tomcat9/Catalina/localhost/manager.xml]
+[2025-03-28 10:22:59] [warning] The path attribute with value [/manager] in deployment descriptor [/etc/tomcat9/Catalina/localhost/manager.xml] has been ignored
+[2025-03-28 10:23:00] [info] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-03-28 10:23:00] [info] Deployment of deployment descriptor [/etc/tomcat9/Catalina/localhost/manager.xml] has finished in [1,252] ms
+[2025-03-28 10:23:00] [info] Deploying web application directory [/var/lib/tomcat9/webapps/ROOT]
+[2025-03-28 10:23:01] [info] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-03-28 10:23:01] [info] Deployment of web application directory [/var/lib/tomcat9/webapps/ROOT] has finished in [855] ms
+[2025-03-28 10:23:01] [info] Starting ProtocolHandler ["http-nio-8080"]
+[2025-03-28 10:23:01] [info] Server startup in [16103] milliseconds
+[2025-03-28 10:28:31] [info] Deploying web application archive [/var/lib/tomcat9/webapps/guacamole.war]
+[2025-03-28 10:28:42] [info] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-03-28 10:28:44] [info] 10:28:44.312 [Catalina-utility-2] INFO  o.a.g.environment.LocalEnvironment - GUACAMOLE_HOME is "/etc/guacamole".
+[2025-03-28 10:28:45] [info] 10:28:45.196 [Catalina-utility-2] ERROR o.a.g.GuacamoleServletContextListener - Unable to read guacamole.properties: "/etc/guacamole/guacamole.properties" does not exist.
+[2025-03-28 10:28:45] [info] 10:28:45.197 [Catalina-utility-2] INFO  o.a.g.rest.auth.HashTokenSessionMap - Sessions will expire after 60 minutes of inactivity.
+[2025-03-28 10:28:51] [info] 10:28:51.701 [Catalina-utility-2] INFO  o.a.g.t.w.WebSocketTunnelModule - Loading JSR-356 WebSocket support...
+[2025-03-28 10:28:53] [info] 10:28:53.295 [Catalina-utility-2] WARN  o.g.jersey.server.wadl.WadlFeature - JAXBContext implementation could not be found. WADL feature is disabled.
+[2025-03-28 10:28:53] [info] Deployment of web application archive [/var/lib/tomcat9/webapps/guacamole.war] has finished in [22,500] ms
+[2025-03-28 10:29:02] [info] Pausing ProtocolHandler ["http-nio-8080"]
+[2025-03-28 10:29:02] [info] Stopping service [Catalina]
+[2025-03-28 10:29:02] [info] Stopping ProtocolHandler ["http-nio-8080"]
+[2025-03-28 10:29:02] [info] Destroying ProtocolHandler ["http-nio-8080"]
+[2025-03-28 10:29:04] [info] NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+[2025-03-28 10:29:13] [info] NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+[2025-03-28 10:29:14] [info] Server version name:   Apache Tomcat/9.0.70 (Debian)
+[2025-03-28 10:29:14] [info] Server built:          May 27 2023 15:51:32 UTC
+[2025-03-28 10:29:14] [info] Server version number: 9.0.70.0
+[2025-03-28 10:29:14] [info] OS Name:               Linux
+[2025-03-28 10:29:14] [info] OS Version:            6.8.4-2-pve
+[2025-03-28 10:29:14] [info] Architecture:          amd64
+[2025-03-28 10:29:14] [info] Java Home:             /usr/lib/jvm/java-17-openjdk-amd64
+[2025-03-28 10:29:14] [info] JVM Version:           17.0.14+7-Debian-1deb12u1
+[2025-03-28 10:29:14] [info] JVM Vendor:            Debian
+[2025-03-28 10:29:14] [info] CATALINA_BASE:         /var/lib/tomcat9
+[2025-03-28 10:29:14] [info] CATALINA_HOME:         /usr/share/tomcat9
+[2025-03-28 10:29:15] [info] Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+[2025-03-28 10:29:15] [info] Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+[2025-03-28 10:29:15] [info] Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+[2025-03-28 10:29:15] [info] Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+[2025-03-28 10:29:15] [info] Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+[2025-03-28 10:29:15] [info] Command line argument: -Djava.util.logging.config.file=/var/lib/tomcat9/conf/logging.properties
+[2025-03-28 10:29:15] [info] Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+[2025-03-28 10:29:15] [info] Command line argument: -Djava.awt.headless=true
+[2025-03-28 10:29:15] [info] Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+[2025-03-28 10:29:15] [info] Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+[2025-03-28 10:29:15] [info] Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+[2025-03-28 10:29:15] [info] Command line argument: -Dignore.endorsed.dirs=
+[2025-03-28 10:29:15] [info] Command line argument: -Dcatalina.base=/var/lib/tomcat9
+[2025-03-28 10:29:15] [info] Command line argument: -Dcatalina.home=/usr/share/tomcat9
+[2025-03-28 10:29:15] [info] Command line argument: -Djava.io.tmpdir=/tmp
+[2025-03-28 10:29:15] [info] Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.2].
+[2025-03-28 10:29:15] [info] APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[2025-03-28 10:29:15] [info] APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[2025-03-28 10:29:15] [info] OpenSSL successfully initialized [OpenSSL 3.0.15 3 Sep 2024]
+[2025-03-28 10:29:21] [info] Initializing ProtocolHandler ["http-nio-8080"]
+[2025-03-28 10:29:22] [info] Server initialization in [8492] milliseconds
+[2025-03-28 10:29:22] [info] Starting service [Catalina]
+[2025-03-28 10:29:22] [info] Starting Servlet engine: [Apache Tomcat/9.0.70 (Debian)]
+[2025-03-28 10:29:23] [info] Deploying deployment descriptor [/etc/tomcat9/Catalina/localhost/host-manager.xml]
+[2025-03-28 10:29:23] [warning] The path attribute with value [/host-manager] in deployment descriptor [/etc/tomcat9/Catalina/localhost/host-manager.xml] has been ignored
+[2025-03-28 10:29:28] [info] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-03-28 10:29:28] [info] Deployment of deployment descriptor [/etc/tomcat9/Catalina/localhost/host-manager.xml] has finished in [5,303] ms
+[2025-03-28 10:29:28] [info] Deploying deployment descriptor [/etc/tomcat9/Catalina/localhost/manager.xml]
+[2025-03-28 10:29:28] [warning] The path attribute with value [/manager] in deployment descriptor [/etc/tomcat9/Catalina/localhost/manager.xml] has been ignored
+[2025-03-28 10:29:29] [info] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-03-28 10:29:29] [info] Deployment of deployment descriptor [/etc/tomcat9/Catalina/localhost/manager.xml] has finished in [783] ms
+[2025-03-28 10:29:29] [info] Deploying web application archive [/var/lib/tomcat9/webapps/guacamole.war]
+[2025-03-28 10:29:33] [info] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-03-28 10:29:34] [info] 10:29:34.545 [main] INFO  o.a.g.environment.LocalEnvironment - GUACAMOLE_HOME is "/etc/guacamole".
+[2025-03-28 10:29:34] [info] 10:29:34.754 [main] ERROR o.a.g.GuacamoleServletContextListener - Unable to read guacamole.properties: "/etc/guacamole/guacamole.properties" does not exist.
+[2025-03-28 10:29:34] [info] 10:29:34.761 [main] INFO  o.a.g.rest.auth.HashTokenSessionMap - Sessions will expire after 60 minutes of inactivity.
+[2025-03-28 10:29:35] [info] 10:29:35.666 [main] INFO  o.a.g.t.w.WebSocketTunnelModule - Loading JSR-356 WebSocket support...
+[2025-03-28 10:29:36] [info] 10:29:36.802 [main] WARN  o.g.jersey.server.wadl.WadlFeature - JAXBContext implementation could not be found. WADL feature is disabled.
+[2025-03-28 10:29:37] [info] Deployment of web application archive [/var/lib/tomcat9/webapps/guacamole.war] has finished in [7,729] ms
+[2025-03-28 10:29:37] [info] Deploying web application directory [/var/lib/tomcat9/webapps/ROOT]
+[2025-03-28 10:29:37] [info] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-03-28 10:29:37] [info] Deployment of web application directory [/var/lib/tomcat9/webapps/ROOT] has finished in [733] ms
+[2025-03-28 10:29:37] [info] Starting ProtocolHandler ["http-nio-8080"]
+[2025-03-28 10:29:37] [info] Server startup in [15559] milliseconds
+[2025-03-28 11:02:49] [info] Pausing ProtocolHandler ["http-nio-8080"]
+[2025-03-28 11:03:02] [info] Stopping service [Catalina]
+[2025-03-28 11:03:13] [info] Stopping ProtocolHandler ["http-nio-8080"]
+[2025-03-28 11:03:14] [info] Destroying ProtocolHandler ["http-nio-8080"]
+[2025-03-28 11:03:16] [info] NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+[2025-03-28 11:03:18] [info] Server version name:   Apache Tomcat/9.0.70 (Debian)
+[2025-03-28 11:03:18] [info] Server built:          May 27 2023 15:51:32 UTC
+[2025-03-28 11:03:18] [info] Server version number: 9.0.70.0
+[2025-03-28 11:03:18] [info] OS Name:               Linux
+[2025-03-28 11:03:18] [info] OS Version:            6.8.4-2-pve
+[2025-03-28 11:03:18] [info] Architecture:          amd64
+[2025-03-28 11:03:18] [info] Java Home:             /usr/lib/jvm/java-17-openjdk-amd64
+[2025-03-28 11:03:18] [info] JVM Version:           17.0.14+7-Debian-1deb12u1
+[2025-03-28 11:03:18] [info] JVM Vendor:            Debian
+[2025-03-28 11:03:18] [info] CATALINA_BASE:         /var/lib/tomcat9
+[2025-03-28 11:03:18] [info] CATALINA_HOME:         /usr/share/tomcat9
+[2025-03-28 11:03:18] [info] Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+[2025-03-28 11:03:18] [info] Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+[2025-03-28 11:03:18] [info] Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+[2025-03-28 11:03:18] [info] Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+[2025-03-28 11:03:18] [info] Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+[2025-03-28 11:03:18] [info] Command line argument: -Djava.util.logging.config.file=/var/lib/tomcat9/conf/logging.properties
+[2025-03-28 11:03:18] [info] Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+[2025-03-28 11:03:18] [info] Command line argument: -Djava.awt.headless=true
+[2025-03-28 11:03:18] [info] Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+[2025-03-28 11:03:18] [info] Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+[2025-03-28 11:03:18] [info] Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+[2025-03-28 11:03:18] [info] Command line argument: -Dignore.endorsed.dirs=
+[2025-03-28 11:03:18] [info] Command line argument: -Dcatalina.base=/var/lib/tomcat9
+[2025-03-28 11:03:18] [info] Command line argument: -Dcatalina.home=/usr/share/tomcat9
+[2025-03-28 11:03:18] [info] Command line argument: -Djava.io.tmpdir=/tmp
+[2025-03-28 11:03:18] [info] Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.2].
+[2025-03-28 11:03:18] [info] APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[2025-03-28 11:03:18] [info] APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[2025-03-28 11:03:18] [info] OpenSSL successfully initialized [OpenSSL 3.0.15 3 Sep 2024]
+[2025-03-28 11:03:18] [info] Initializing ProtocolHandler ["http-nio-8080"]
+[2025-03-28 11:03:18] [info] Server initialization in [1212] milliseconds
+[2025-03-28 11:03:19] [info] Starting service [Catalina]
+[2025-03-28 11:03:19] [info] Starting Servlet engine: [Apache Tomcat/9.0.70 (Debian)]
+[2025-03-28 11:03:19] [info] Deploying deployment descriptor [/etc/tomcat9/Catalina/localhost/host-manager.xml]
+[2025-03-28 11:03:19] [warning] The path attribute with value [/host-manager] in deployment descriptor [/etc/tomcat9/Catalina/localhost/host-manager.xml] has been ignored
+[2025-03-28 11:03:20] [info] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-03-28 11:03:20] [info] Deployment of deployment descriptor [/etc/tomcat9/Catalina/localhost/host-manager.xml] has finished in [1,906] ms
+[2025-03-28 11:03:20] [info] Deploying deployment descriptor [/etc/tomcat9/Catalina/localhost/manager.xml]
+[2025-03-28 11:03:20] [warning] The path attribute with value [/manager] in deployment descriptor [/etc/tomcat9/Catalina/localhost/manager.xml] has been ignored
+[2025-03-28 11:03:21] [info] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-03-28 11:03:21] [info] Deployment of deployment descriptor [/etc/tomcat9/Catalina/localhost/manager.xml] has finished in [866] ms
+[2025-03-28 11:03:21] [info] Deploying web application archive [/var/lib/tomcat9/webapps/guacamole.war]
+[2025-03-28 11:03:24] [info] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-03-28 11:03:26] [info] 11:03:26.383 [main] INFO  o.a.g.environment.LocalEnvironment - GUACAMOLE_HOME is "/etc/guacamole".
+[2025-03-28 11:03:26] [info] 11:03:26.551 [main] INFO  o.a.g.GuacamoleServletContextListener - Read configuration parameters from "/etc/guacamole/guacamole.properties".
+[2025-03-28 11:03:26] [info] 11:03:26.574 [main] INFO  o.a.g.rest.auth.HashTokenSessionMap - Sessions will expire after 60 minutes of inactivity.
+[2025-03-28 11:03:34] [info] 11:03:34.605 [main] INFO  o.a.g.a.mysql.conf.MySQLEnvironment - Installed JDBC driver for MySQL/MariaDB detected as "MySQL Connector/J".
+[2025-03-28 11:03:39] [info] 11:03:39.065 [main] INFO  o.a.g.extension.ExtensionModule - Extension "MySQL Authentication" (mysql) loaded.
+[2025-03-28 11:03:40] [info] 11:03:40.026 [main] INFO  o.a.g.t.w.WebSocketTunnelModule - Loading JSR-356 WebSocket support...
+[2025-03-28 11:03:43] [info] 11:03:43.370 [main] WARN  o.g.jersey.server.wadl.WadlFeature - JAXBContext implementation could not be found. WADL feature is disabled.
+[2025-03-28 11:03:44] [info] Deployment of web application archive [/var/lib/tomcat9/webapps/guacamole.war] has finished in [22,421] ms
+[2025-03-28 11:03:44] [info] Deploying web application directory [/var/lib/tomcat9/webapps/ROOT]
+[2025-03-28 11:03:47] [info] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-03-28 11:03:47] [info] Deployment of web application directory [/var/lib/tomcat9/webapps/ROOT] has finished in [2,812] ms
+[2025-03-28 11:03:47] [info] Starting ProtocolHandler ["http-nio-8080"]
+[2025-03-28 11:03:48] [info] Server startup in [29656] milliseconds
+[2025-03-28 11:07:13] [info] Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+[2025-03-28 11:07:26] [info] 11:07:26.472 [http-nio-8080-exec-8] INFO  o.a.g.r.auth.AuthenticationService - User "guacadmin" successfully authenticated from 10.187.20.42.
+[2025-03-28 11:10:57] [info] 11:10:57.741 [http-nio-8080-exec-9] INFO  o.a.g.r.auth.AuthenticationService - User "guacadmin" successfully authenticated from 10.187.20.42.
+[2025-03-28 11:12:03] [info] 11:12:03.730 [http-nio-8080-exec-4] INFO  o.a.g.r.auth.AuthenticationService - User "andrea" successfully authenticated from 10.187.20.42.
+[2025-03-28 11:19:10] [info] 11:19:10.176 [http-nio-8080-exec-8] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:19:15] [info] Exception in thread "Thread-2" 11:19:15.459 [http-nio-8080-exec-10] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 5250 milliseconds
+[2025-03-28 11:19:15] [info] java.lang.IllegalStateException: Message will not be sent because the WebSocket session has been closed
+[2025-03-28 11:19:15] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:442)
+[2025-03-28 11:19:15] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:314)
+[2025-03-28 11:19:15] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:254)
+[2025-03-28 11:19:15] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendString(WsRemoteEndpointImplBase.java:195)
+[2025-03-28 11:19:15] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointBasic.sendText(WsRemoteEndpointBasic.java:37)
+[2025-03-28 11:19:15] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint.sendInstruction(GuacamoleWebSocketTunnelEndpoint.java:152)
+[2025-03-28 11:19:15] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint.access$200(GuacamoleWebSocketTunnelEndpoint.java:53)
+[2025-03-28 11:19:15] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint$2.run(GuacamoleWebSocketTunnelEndpoint.java:253)
+[2025-03-28 11:22:07] [info] 11:22:07.767 [http-nio-8080-exec-2] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:22:09] [info] 11:22:09.559 [http-nio-8080-exec-2] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 1792 milliseconds
+[2025-03-28 11:22:24] [info] 11:22:24.718 [http-nio-8080-exec-8] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:22:25] [info] 11:22:25.072 [http-nio-8080-exec-2] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 354 milliseconds
+[2025-03-28 11:22:40] [info] 11:22:40.250 [http-nio-8080-exec-4] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:22:40] [info] 11:22:40.598 [Thread-8] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 348 milliseconds
+[2025-03-28 11:24:48] [info] 11:24:48.380 [http-nio-8080-exec-2] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:24:48] [info] 11:24:48.556 [http-nio-8080-exec-5] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 176 milliseconds
+[2025-03-28 11:24:50] [info] 11:24:50.572 [http-nio-8080-exec-9] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:24:50] [info] 11:24:50.929 [http-nio-8080-exec-10] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 357 milliseconds
+[2025-03-28 11:25:26] [info] 11:25:26.792 [http-nio-8080-exec-7] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:25:27] [info] 11:25:27.223 [http-nio-8080-exec-1] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 431 milliseconds
+[2025-03-28 11:25:31] [info] 11:25:31.158 [http-nio-8080-exec-3] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:25:31] [info] 11:25:31.491 [http-nio-8080-exec-6] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 332 milliseconds
+[2025-03-28 11:25:33] [info] 11:25:33.518 [http-nio-8080-exec-1] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:25:33] [info] 11:25:33.861 [Thread-18] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 342 milliseconds
+[2025-03-28 11:32:12] [info] 11:32:12.332 [http-nio-8080-exec-10] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:32:14] [info] 11:32:14.433 [http-nio-8080-exec-8] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 2101 milliseconds
+[2025-03-28 11:32:17] [info] 11:32:17.650 [http-nio-8080-exec-5] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:32:18] [info] 11:32:18.026 [http-nio-8080-exec-10] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 376 milliseconds
+[2025-03-28 11:34:05] [info] 11:34:05.077 [http-nio-8080-exec-7] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:34:05] [info] 11:34:05.334 [http-nio-8080-exec-10] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 254 milliseconds
+[2025-03-28 11:34:07] [info] 11:34:07.336 [http-nio-8080-exec-4] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:34:07] [info] 11:34:07.635 [Thread-26] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 299 milliseconds
+[2025-03-28 11:36:23] [info] 11:36:23.174 [http-nio-8080-exec-3] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:36:24] [info] 11:36:24.407 [http-nio-8080-exec-6] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 1232 milliseconds
+[2025-03-28 11:36:41] [info] 11:36:41.355 [http-nio-8080-exec-9] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:36:42] [info] 11:36:42.553 [http-nio-8080-exec-3] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 1197 milliseconds
+[2025-03-28 11:36:57] [info] 11:36:57.771 [http-nio-8080-exec-9] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:36:58] [info] 11:36:58.190 [Thread-32] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 419 milliseconds
+[2025-03-28 11:40:19] [info] 11:40:19.290 [http-nio-8080-exec-3] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:40:20] [info] 11:40:20.337 [http-nio-8080-exec-4] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 1047 milliseconds
+[2025-03-28 11:40:20] [info] Exception in thread "Thread-34" java.lang.IllegalStateException: Message will not be sent because the WebSocket session has been closed
+[2025-03-28 11:40:20] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:442)
+[2025-03-28 11:40:20] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:314)
+[2025-03-28 11:40:20] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:254)
+[2025-03-28 11:40:20] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendString(WsRemoteEndpointImplBase.java:195)
+[2025-03-28 11:40:20] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointBasic.sendText(WsRemoteEndpointBasic.java:37)
+[2025-03-28 11:40:20] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint.sendInstruction(GuacamoleWebSocketTunnelEndpoint.java:152)
+[2025-03-28 11:40:20] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint.access$200(GuacamoleWebSocketTunnelEndpoint.java:53)
+[2025-03-28 11:40:20] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint$2.run(GuacamoleWebSocketTunnelEndpoint.java:253)
+[2025-03-28 11:40:24] [info] 11:40:24.933 [http-nio-8080-exec-6] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:40:25] [info] 11:40:25.473 [http-nio-8080-exec-5] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 540 milliseconds
+[2025-03-28 11:41:29] [info] 11:41:29.736 [http-nio-8080-exec-1] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:41:30] [info] 11:41:30.319 [http-nio-8080-exec-8] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 583 milliseconds
+[2025-03-28 11:43:23] [info] Pausing ProtocolHandler ["http-nio-8080"]
+[2025-03-28 11:43:23] [info] Stopping service [Catalina]
+[2025-03-28 11:43:24] [info] Stopping ProtocolHandler ["http-nio-8080"]
+[2025-03-28 11:43:25] [info] Destroying ProtocolHandler ["http-nio-8080"]
+[2025-03-28 11:43:30] [info] NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+[2025-03-28 11:43:39] [info] Server version name:   Apache Tomcat/9.0.70 (Debian)
+[2025-03-28 11:43:39] [info] Server built:          May 27 2023 15:51:32 UTC
+[2025-03-28 11:43:39] [info] Server version number: 9.0.70.0
+[2025-03-28 11:43:39] [info] OS Name:               Linux
+[2025-03-28 11:43:39] [info] OS Version:            6.8.4-2-pve
+[2025-03-28 11:43:39] [info] Architecture:          amd64
+[2025-03-28 11:43:39] [info] Java Home:             /usr/lib/jvm/java-17-openjdk-amd64
+[2025-03-28 11:43:39] [info] JVM Version:           17.0.14+7-Debian-1deb12u1
+[2025-03-28 11:43:39] [info] JVM Vendor:            Debian
+[2025-03-28 11:43:39] [info] CATALINA_BASE:         /var/lib/tomcat9
+[2025-03-28 11:43:39] [info] CATALINA_HOME:         /usr/share/tomcat9
+[2025-03-28 11:43:40] [info] Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+[2025-03-28 11:43:40] [info] Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+[2025-03-28 11:43:40] [info] Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+[2025-03-28 11:43:40] [info] Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+[2025-03-28 11:43:40] [info] Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+[2025-03-28 11:43:40] [info] Command line argument: -Djava.util.logging.config.file=/var/lib/tomcat9/conf/logging.properties
+[2025-03-28 11:43:40] [info] Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+[2025-03-28 11:43:40] [info] Command line argument: -Djava.awt.headless=true
+[2025-03-28 11:43:40] [info] Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+[2025-03-28 11:43:40] [info] Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+[2025-03-28 11:43:40] [info] Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+[2025-03-28 11:43:40] [info] Command line argument: -Dignore.endorsed.dirs=
+[2025-03-28 11:43:40] [info] Command line argument: -Dcatalina.base=/var/lib/tomcat9
+[2025-03-28 11:43:40] [info] Command line argument: -Dcatalina.home=/usr/share/tomcat9
+[2025-03-28 11:43:40] [info] Command line argument: -Djava.io.tmpdir=/tmp
+[2025-03-28 11:43:40] [info] Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.2].
+[2025-03-28 11:43:40] [info] APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+[2025-03-28 11:43:40] [info] APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+[2025-03-28 11:43:40] [info] OpenSSL successfully initialized [OpenSSL 3.0.15 3 Sep 2024]
+[2025-03-28 11:43:41] [info] Initializing ProtocolHandler ["http-nio-8080"]
+[2025-03-28 11:43:41] [info] Server initialization in [5281] milliseconds
+[2025-03-28 11:43:41] [info] Starting service [Catalina]
+[2025-03-28 11:43:41] [info] Starting Servlet engine: [Apache Tomcat/9.0.70 (Debian)]
+[2025-03-28 11:43:42] [info] Deploying deployment descriptor [/etc/tomcat9/Catalina/localhost/host-manager.xml]
+[2025-03-28 11:43:42] [warning] The path attribute with value [/host-manager] in deployment descriptor [/etc/tomcat9/Catalina/localhost/host-manager.xml] has been ignored
+[2025-03-28 11:43:43] [info] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-03-28 11:43:43] [info] Deployment of deployment descriptor [/etc/tomcat9/Catalina/localhost/host-manager.xml] has finished in [1,780] ms
+[2025-03-28 11:43:43] [info] Deploying deployment descriptor [/etc/tomcat9/Catalina/localhost/manager.xml]
+[2025-03-28 11:43:43] [warning] The path attribute with value [/manager] in deployment descriptor [/etc/tomcat9/Catalina/localhost/manager.xml] has been ignored
+[2025-03-28 11:43:44] [info] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-03-28 11:43:44] [info] Deployment of deployment descriptor [/etc/tomcat9/Catalina/localhost/manager.xml] has finished in [780] ms
+[2025-03-28 11:43:44] [info] Deploying web application archive [/var/lib/tomcat9/webapps/guacamole.war]
+[2025-03-28 11:43:47] [info] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-03-28 11:43:47] [info] 11:43:47.587 [main] INFO  o.a.g.environment.LocalEnvironment - GUACAMOLE_HOME is "/etc/guacamole".
+[2025-03-28 11:43:47] [info] 11:43:47.715 [main] INFO  o.a.g.GuacamoleServletContextListener - Read configuration parameters from "/etc/guacamole/guacamole.properties".
+[2025-03-28 11:43:47] [info] 11:43:47.721 [main] INFO  o.a.g.rest.auth.HashTokenSessionMap - Sessions will expire after 60 minutes of inactivity.
+[2025-03-28 11:43:48] [info] 11:43:48.365 [main] INFO  o.a.g.a.mysql.conf.MySQLEnvironment - Installed JDBC driver for MySQL/MariaDB detected as "MySQL Connector/J".
+[2025-03-28 11:43:49] [info] 11:43:49.701 [main] INFO  o.a.g.extension.ExtensionModule - Extension "MySQL Authentication" (mysql) loaded.
+[2025-03-28 11:43:49] [info] 11:43:49.890 [main] INFO  o.a.g.t.w.WebSocketTunnelModule - Loading JSR-356 WebSocket support...
+[2025-03-28 11:43:50] [info] 11:43:50.654 [main] WARN  o.g.jersey.server.wadl.WadlFeature - JAXBContext implementation could not be found. WADL feature is disabled.
+[2025-03-28 11:43:51] [info] Deployment of web application archive [/var/lib/tomcat9/webapps/guacamole.war] has finished in [6,420] ms
+[2025-03-28 11:43:51] [info] Deploying web application directory [/var/lib/tomcat9/webapps/ROOT]
+[2025-03-28 11:43:51] [info] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+[2025-03-28 11:43:51] [info] Deployment of web application directory [/var/lib/tomcat9/webapps/ROOT] has finished in [594] ms
+[2025-03-28 11:43:51] [info] Starting ProtocolHandler ["http-nio-8080"]
+[2025-03-28 11:43:51] [info] Server startup in [9741] milliseconds
+[2025-03-28 11:43:51] [info] Loading class `com.mysql.jdbc.Driver'. This is deprecated. The new driver class is `com.mysql.cj.jdbc.Driver'. The driver is automatically registered via the SPI and manual loading of the driver class is generally unnecessary.
+[2025-03-28 11:44:03] [info] 11:44:03.968 [http-nio-8080-exec-2] INFO  o.a.g.r.auth.AuthenticationService - User "andrea" successfully authenticated from 10.187.20.42.
+[2025-03-28 11:44:05] [info] 11:44:05.950 [http-nio-8080-exec-5] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:44:06] [info] 11:44:06.821 [http-nio-8080-exec-3] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 840 milliseconds
+[2025-03-28 11:44:06] [info] Exception in thread "Thread-2" java.lang.IllegalStateException: Message will not be sent because the WebSocket session has been closed
+[2025-03-28 11:44:06] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:442)
+[2025-03-28 11:44:06] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:314)
+[2025-03-28 11:44:06] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:254)
+[2025-03-28 11:44:06] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendString(WsRemoteEndpointImplBase.java:195)
+[2025-03-28 11:44:06] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointBasic.sendText(WsRemoteEndpointBasic.java:37)
+[2025-03-28 11:44:06] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint.sendInstruction(GuacamoleWebSocketTunnelEndpoint.java:152)
+[2025-03-28 11:44:06] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint.access$200(GuacamoleWebSocketTunnelEndpoint.java:53)
+[2025-03-28 11:44:06] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint$2.run(GuacamoleWebSocketTunnelEndpoint.java:253)
+[2025-03-28 11:45:41] [info] 11:45:41.370 [http-nio-8080-exec-3] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:45:42] [info] 11:45:42.059 [http-nio-8080-exec-7] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 689 milliseconds
+[2025-03-28 11:45:44] [info] 11:45:44.653 [http-nio-8080-exec-3] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:45:45] [info] 11:45:45.108 [http-nio-8080-exec-2] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 454 milliseconds
+[2025-03-28 11:46:00] [info] 11:46:00.263 [http-nio-8080-exec-4] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:46:00] [info] 11:46:00.825 [http-nio-8080-exec-2] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 562 milliseconds
+[2025-03-28 11:46:00] [info] Exception in thread "Thread-8" java.lang.IllegalStateException: Message will not be sent because the WebSocket session has been closed
+[2025-03-28 11:46:00] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:442)
+[2025-03-28 11:46:00] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:314)
+[2025-03-28 11:46:00] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:254)
+[2025-03-28 11:46:00] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendString(WsRemoteEndpointImplBase.java:195)
+[2025-03-28 11:46:00] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointBasic.sendText(WsRemoteEndpointBasic.java:37)
+[2025-03-28 11:46:00] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint.sendInstruction(GuacamoleWebSocketTunnelEndpoint.java:152)
+[2025-03-28 11:46:00] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint.access$200(GuacamoleWebSocketTunnelEndpoint.java:53)
+[2025-03-28 11:46:00] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint$2.run(GuacamoleWebSocketTunnelEndpoint.java:253)
+[2025-03-28 11:46:15] [info] 11:46:15.985 [http-nio-8080-exec-3] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:46:16] [info] 11:46:16.670 [Thread-10] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 685 milliseconds
+[2025-03-28 11:46:32] [info] 11:46:32.216 [http-nio-8080-exec-1] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:46:32] [info] 11:46:32.772 [http-nio-8080-exec-6] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 556 milliseconds
+[2025-03-28 11:46:48] [info] 11:46:48.219 [http-nio-8080-exec-8] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:46:48] [info] 11:46:48.849 [http-nio-8080-exec-4] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 630 milliseconds
+[2025-03-28 11:47:04] [info] 11:47:04.266 [http-nio-8080-exec-6] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:47:05] [info] 11:47:05.035 [http-nio-8080-exec-3] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 769 milliseconds
+[2025-03-28 11:51:11] [info] 11:51:11.440 [http-nio-8080-exec-6] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:51:12] [info] 11:51:12.019 [http-nio-8080-exec-3] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 579 milliseconds
+[2025-03-28 11:51:27] [info] 11:51:27.201 [http-nio-8080-exec-4] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:51:27] [info] 11:51:27.721 [http-nio-8080-exec-2] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 517 milliseconds
+[2025-03-28 11:51:42] [info] 11:51:42.866 [http-nio-8080-exec-9] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:51:43] [info] 11:51:43.413 [http-nio-8080-exec-1] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 547 milliseconds
+[2025-03-28 11:51:58] [info] 11:51:58.640 [http-nio-8080-exec-5] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:51:59] [info] 11:51:59.090 [http-nio-8080-exec-8] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 450 milliseconds
+[2025-03-28 11:51:59] [info] Exception in thread "Thread-24" java.lang.IllegalStateException: Message will not be sent because the WebSocket session has been closed
+[2025-03-28 11:51:59] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:442)
+[2025-03-28 11:51:59] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:314)
+[2025-03-28 11:51:59] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:254)
+[2025-03-28 11:51:59] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendString(WsRemoteEndpointImplBase.java:195)
+[2025-03-28 11:51:59] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointBasic.sendText(WsRemoteEndpointBasic.java:37)
+[2025-03-28 11:51:59] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint.sendInstruction(GuacamoleWebSocketTunnelEndpoint.java:152)
+[2025-03-28 11:51:59] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint.access$200(GuacamoleWebSocketTunnelEndpoint.java:53)
+[2025-03-28 11:51:59] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint$2.run(GuacamoleWebSocketTunnelEndpoint.java:253)
+[2025-03-28 11:52:14] [info] 11:52:14.244 [http-nio-8080-exec-7] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:52:14] [info] 11:52:14.770 [http-nio-8080-exec-4] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 525 milliseconds
+[2025-03-28 11:52:29] [info] 11:52:29.949 [http-nio-8080-exec-10] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:52:30] [info] Exception in thread "Thread-28" java.lang.IllegalStateException: Message will not be sent because the WebSocket session has been closed
+[2025-03-28 11:52:30] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:442)
+[2025-03-28 11:52:30] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:314)
+[2025-03-28 11:52:30] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:254)
+[2025-03-28 11:52:30] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendString(WsRemoteEndpointImplBase.java:195)
+[2025-03-28 11:52:30] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointBasic.sendText(WsRemoteEndpointBasic.java:37)
+[2025-03-28 11:52:30] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint.sendInstruction(GuacamoleWebSocketTunnelEndpoint.java:152)
+[2025-03-28 11:52:30] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint.access$200(GuacamoleWebSocketTunnelEndpoint.java:53)
+[2025-03-28 11:52:30] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint$2.run(GuacamoleWebSocketTunnelEndpoint.java:253)
+[2025-03-28 11:52:30] [info] 11:52:30.469 [http-nio-8080-exec-9] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 520 milliseconds
+[2025-03-28 11:52:49] [info] 11:52:48.021 [http-nio-8080-exec-6] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:52:49] [info] 11:52:49.776 [http-nio-8080-exec-3] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 737 milliseconds
+[2025-03-28 11:53:11] [info] 11:53:11.445 [http-nio-8080-exec-6] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:53:22] [info] 11:53:22.426 [http-nio-8080-exec-6] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 10981 milliseconds
+[2025-03-28 11:53:52] [info] 11:53:52.733 [http-nio-8080-exec-8] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:53:54] [info] Exception in thread "Thread-34" java.lang.IllegalStateException: Message will not be sent because the WebSocket session has been closed
+[2025-03-28 11:53:54] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:442)
+[2025-03-28 11:53:54] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:314)
+[2025-03-28 11:53:54] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:254)
+[2025-03-28 11:53:54] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendString(WsRemoteEndpointImplBase.java:195)
+[2025-03-28 11:53:54] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointBasic.sendText(WsRemoteEndpointBasic.java:37)
+[2025-03-28 11:53:54] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint.sendInstruction(GuacamoleWebSocketTunnelEndpoint.java:152)
+[2025-03-28 11:53:54] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint.access$200(GuacamoleWebSocketTunnelEndpoint.java:53)
+[2025-03-28 11:53:54] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint$2.run(GuacamoleWebSocketTunnelEndpoint.java:253)
+[2025-03-28 11:53:54] [info] 11:53:54.145 [http-nio-8080-exec-6] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 1412 milliseconds
+[2025-03-28 11:54:09] [info] 11:54:09.613 [http-nio-8080-exec-1] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:54:10] [info] Exception in thread "Thread-36" java.lang.IllegalStateException: Message will not be sent because the WebSocket session has been closed
+[2025-03-28 11:54:10] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:442)
+[2025-03-28 11:54:10] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:314)
+[2025-03-28 11:54:10] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:254)
+[2025-03-28 11:54:10] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendString(WsRemoteEndpointImplBase.java:195)
+[2025-03-28 11:54:10] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointBasic.sendText(WsRemoteEndpointBasic.java:37)
+[2025-03-28 11:54:10] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint.sendInstruction(GuacamoleWebSocketTunnelEndpoint.java:152)
+[2025-03-28 11:54:10] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint.access$200(GuacamoleWebSocketTunnelEndpoint.java:53)
+[2025-03-28 11:54:10] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint$2.run(GuacamoleWebSocketTunnelEndpoint.java:253)
+[2025-03-28 11:54:10] [info] 11:54:10.105 [http-nio-8080-exec-7] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 489 milliseconds
+[2025-03-28 11:54:25] [info] 11:54:25.631 [http-nio-8080-exec-5] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:54:26] [info] 11:54:26.156 [http-nio-8080-exec-2] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 525 milliseconds
+[2025-03-28 11:54:41] [info] 11:54:41.645 [http-nio-8080-exec-7] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:54:42] [info] 11:54:42.176 [http-nio-8080-exec-10] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 531 milliseconds
+[2025-03-28 11:54:42] [info] Exception in thread "Thread-40" java.lang.IllegalStateException: Message will not be sent because the WebSocket session has been closed
+[2025-03-28 11:54:42] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:442)
+[2025-03-28 11:54:42] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:314)
+[2025-03-28 11:54:42] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:254)
+[2025-03-28 11:54:42] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendString(WsRemoteEndpointImplBase.java:195)
+[2025-03-28 11:54:42] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointBasic.sendText(WsRemoteEndpointBasic.java:37)
+[2025-03-28 11:54:42] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint.sendInstruction(GuacamoleWebSocketTunnelEndpoint.java:152)
+[2025-03-28 11:54:42] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint.access$200(GuacamoleWebSocketTunnelEndpoint.java:53)
+[2025-03-28 11:54:42] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint$2.run(GuacamoleWebSocketTunnelEndpoint.java:253)
+[2025-03-28 11:54:57] [info] 11:54:57.618 [http-nio-8080-exec-3] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:54:58] [info] Exception in thread "Thread-42" java.lang.IllegalStateException: Message will not be sent because the WebSocket session has been closed
+[2025-03-28 11:54:58] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:442)
+[2025-03-28 11:54:58] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:314)
+[2025-03-28 11:54:58] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:254)
+[2025-03-28 11:54:58] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendString(WsRemoteEndpointImplBase.java:195)
+[2025-03-28 11:54:58] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointBasic.sendText(WsRemoteEndpointBasic.java:37)
+[2025-03-28 11:54:58] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint.sendInstruction(GuacamoleWebSocketTunnelEndpoint.java:152)
+[2025-03-28 11:54:58] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint.access$200(GuacamoleWebSocketTunnelEndpoint.java:53)
+[2025-03-28 11:54:58] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint$2.run(GuacamoleWebSocketTunnelEndpoint.java:253)
+[2025-03-28 11:54:58] [info] 11:54:58.147 [http-nio-8080-exec-9] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 508 milliseconds
+[2025-03-28 11:55:13] [info] 11:55:13.657 [http-nio-8080-exec-2] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:55:14] [info] 11:55:14.172 [http-nio-8080-exec-4] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 515 milliseconds
+[2025-03-28 11:55:29] [info] 11:55:29.536 [http-nio-8080-exec-9] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:55:30] [info] 11:55:30.063 [http-nio-8080-exec-10] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 503 milliseconds
+[2025-03-28 11:55:30] [info] Exception in thread "Thread-46" java.lang.IllegalStateException: Message will not be sent because the WebSocket session has been closed
+[2025-03-28 11:55:30] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:442)
+[2025-03-28 11:55:30] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:314)
+[2025-03-28 11:55:30] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:254)
+[2025-03-28 11:55:30] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendString(WsRemoteEndpointImplBase.java:195)
+[2025-03-28 11:55:30] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointBasic.sendText(WsRemoteEndpointBasic.java:37)
+[2025-03-28 11:55:30] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint.sendInstruction(GuacamoleWebSocketTunnelEndpoint.java:152)
+[2025-03-28 11:55:30] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint.access$200(GuacamoleWebSocketTunnelEndpoint.java:53)
+[2025-03-28 11:55:30] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint$2.run(GuacamoleWebSocketTunnelEndpoint.java:253)
+[2025-03-28 11:55:45] [info] 11:55:45.418 [http-nio-8080-exec-1] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:55:45] [info] 11:55:45.984 [http-nio-8080-exec-5] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 558 milliseconds
+[2025-03-28 11:55:46] [info] Exception in thread "Thread-48" java.lang.IllegalStateException: The WebSocket session [17] has been closed and no method (apart from close()) may be called on a closed session
+[2025-03-28 11:55:46] [info] #011at org.apache.tomcat.websocket.WsSession.checkState(WsSession.java:1082)
+[2025-03-28 11:55:46] [info] #011at org.apache.tomcat.websocket.WsSession.getUserProperties(WsSession.java:990)
+[2025-03-28 11:55:46] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.getBlockingSendTimeout(WsRemoteEndpointImplBase.java:533)
+[2025-03-28 11:55:46] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.getTimeoutExpiry(WsRemoteEndpointImplBase.java:270)
+[2025-03-28 11:55:46] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:244)
+[2025-03-28 11:55:46] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendString(WsRemoteEndpointImplBase.java:195)
+[2025-03-28 11:55:46] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointBasic.sendText(WsRemoteEndpointBasic.java:37)
+[2025-03-28 11:55:46] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint.sendInstruction(GuacamoleWebSocketTunnelEndpoint.java:152)
+[2025-03-28 11:55:46] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint.access$200(GuacamoleWebSocketTunnelEndpoint.java:53)
+[2025-03-28 11:55:46] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint$2.run(GuacamoleWebSocketTunnelEndpoint.java:253)
+[2025-03-28 11:56:01] [info] 11:56:01.387 [http-nio-8080-exec-3] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:56:01] [info] 11:56:01.941 [http-nio-8080-exec-9] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 554 milliseconds
+[2025-03-28 11:56:17] [info] 11:56:17.387 [http-nio-8080-exec-10] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:56:17] [info] 11:56:17.928 [http-nio-8080-exec-4] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 541 milliseconds
+[2025-03-28 11:56:33] [info] 11:56:33.270 [http-nio-8080-exec-5] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:56:33] [info] 11:56:33.841 [http-nio-8080-exec-8] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 569 milliseconds
+[2025-03-28 11:56:49] [info] 11:56:49.205 [http-nio-8080-exec-4] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:56:49] [info] 11:56:49.820 [http-nio-8080-exec-1] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 613 milliseconds
+[2025-03-28 11:56:49] [info] Exception in thread "Thread-56" java.lang.IllegalStateException: Message will not be sent because the WebSocket session has been closed
+[2025-03-28 11:56:49] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:442)
+[2025-03-28 11:56:49] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:314)
+[2025-03-28 11:56:49] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:254)
+[2025-03-28 11:56:49] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendString(WsRemoteEndpointImplBase.java:195)
+[2025-03-28 11:56:49] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointBasic.sendText(WsRemoteEndpointBasic.java:37)
+[2025-03-28 11:56:49] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint.sendInstruction(GuacamoleWebSocketTunnelEndpoint.java:152)
+[2025-03-28 11:56:49] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint.access$200(GuacamoleWebSocketTunnelEndpoint.java:53)
+[2025-03-28 11:56:49] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint$2.run(GuacamoleWebSocketTunnelEndpoint.java:253)
+[2025-03-28 11:57:05] [info] 11:57:05.243 [http-nio-8080-exec-8] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:57:05] [info] 11:57:05.825 [http-nio-8080-exec-6] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 581 milliseconds
+[2025-03-28 11:57:21] [info] 11:57:21.073 [http-nio-8080-exec-8] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:57:21] [info] 11:57:21.665 [http-nio-8080-exec-7] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 592 milliseconds
+[2025-03-28 11:57:21] [info] Exception in thread "Thread-60" java.lang.IllegalStateException: Message will not be sent because the WebSocket session has been closed
+[2025-03-28 11:57:21] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:442)
+[2025-03-28 11:57:21] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:314)
+[2025-03-28 11:57:21] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:254)
+[2025-03-28 11:57:21] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendString(WsRemoteEndpointImplBase.java:195)
+[2025-03-28 11:57:21] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointBasic.sendText(WsRemoteEndpointBasic.java:37)
+[2025-03-28 11:57:21] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint.sendInstruction(GuacamoleWebSocketTunnelEndpoint.java:152)
+[2025-03-28 11:57:21] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint.access$200(GuacamoleWebSocketTunnelEndpoint.java:53)
+[2025-03-28 11:57:21] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint$2.run(GuacamoleWebSocketTunnelEndpoint.java:253)
+[2025-03-28 11:57:36] [info] 11:57:36.852 [http-nio-8080-exec-1] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:57:37] [info] 11:57:37.391 [Thread-62] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 539 milliseconds
+[2025-03-28 11:57:52] [info] 11:57:52.851 [http-nio-8080-exec-2] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:57:53] [info] 11:57:53.394 [http-nio-8080-exec-9] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 538 milliseconds
+[2025-03-28 11:58:08] [info] 11:58:08.670 [http-nio-8080-exec-5] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:58:09] [info] 11:58:09.210 [http-nio-8080-exec-4] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 540 milliseconds
+[2025-03-28 11:58:09] [info] Exception in thread "Thread-66" java.lang.IllegalStateException: Message will not be sent because the WebSocket session has been closed
+[2025-03-28 11:58:09] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:442)
+[2025-03-28 11:58:09] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:314)
+[2025-03-28 11:58:09] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:254)
+[2025-03-28 11:58:09] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendString(WsRemoteEndpointImplBase.java:195)
+[2025-03-28 11:58:09] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointBasic.sendText(WsRemoteEndpointBasic.java:37)
+[2025-03-28 11:58:09] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint.sendInstruction(GuacamoleWebSocketTunnelEndpoint.java:152)
+[2025-03-28 11:58:09] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint.access$200(GuacamoleWebSocketTunnelEndpoint.java:53)
+[2025-03-28 11:58:09] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint$2.run(GuacamoleWebSocketTunnelEndpoint.java:253)
+[2025-03-28 11:58:24] [info] 11:58:24.635 [http-nio-8080-exec-3] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:58:25] [info] 11:58:25.207 [http-nio-8080-exec-6] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 571 milliseconds
+[2025-03-28 11:58:41] [info] 11:58:41.001 [http-nio-8080-exec-4] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:58:41] [info] 11:58:41.207 [http-nio-8080-exec-5] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 205 milliseconds
+[2025-03-28 11:58:57] [info] 11:58:57.352 [http-nio-8080-exec-2] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:59:01] [info] 11:59:01.655 [http-nio-8080-exec-9] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 4303 milliseconds
+[2025-03-28 11:59:01] [info] Exception in thread "Thread-72" java.lang.IllegalStateException: Message will not be sent because the WebSocket session has been closed
+[2025-03-28 11:59:01] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:442)
+[2025-03-28 11:59:01] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:314)
+[2025-03-28 11:59:01] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:254)
+[2025-03-28 11:59:01] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendString(WsRemoteEndpointImplBase.java:195)
+[2025-03-28 11:59:01] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointBasic.sendText(WsRemoteEndpointBasic.java:37)
+[2025-03-28 11:59:01] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint.sendInstruction(GuacamoleWebSocketTunnelEndpoint.java:152)
+[2025-03-28 11:59:01] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint.access$200(GuacamoleWebSocketTunnelEndpoint.java:53)
+[2025-03-28 11:59:01] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint$2.run(GuacamoleWebSocketTunnelEndpoint.java:253)
+[2025-03-28 11:59:17] [info] 11:59:17.814 [http-nio-8080-exec-3] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:59:18] [info] 11:59:18.759 [http-nio-8080-exec-1] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 944 milliseconds
+[2025-03-28 11:59:18] [info] Exception in thread "Thread-74" java.lang.IllegalStateException: Message will not be sent because the WebSocket session has been closed
+[2025-03-28 11:59:18] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:442)
+[2025-03-28 11:59:18] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:314)
+[2025-03-28 11:59:18] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:254)
+[2025-03-28 11:59:18] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendString(WsRemoteEndpointImplBase.java:195)
+[2025-03-28 11:59:18] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointBasic.sendText(WsRemoteEndpointBasic.java:37)
+[2025-03-28 11:59:18] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint.sendInstruction(GuacamoleWebSocketTunnelEndpoint.java:152)
+[2025-03-28 11:59:18] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint.access$200(GuacamoleWebSocketTunnelEndpoint.java:53)
+[2025-03-28 11:59:18] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint$2.run(GuacamoleWebSocketTunnelEndpoint.java:253)
+[2025-03-28 11:59:34] [info] 11:59:34.065 [http-nio-8080-exec-10] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:59:34] [info] Exception in thread "Thread-76" java.lang.IllegalStateException: Message will not be sent because the WebSocket session has been closed
+[2025-03-28 11:59:34] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:442)
+[2025-03-28 11:59:34] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:314)
+[2025-03-28 11:59:34] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:254)
+[2025-03-28 11:59:34] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendString(WsRemoteEndpointImplBase.java:195)
+[2025-03-28 11:59:34] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointBasic.sendText(WsRemoteEndpointBasic.java:37)
+[2025-03-28 11:59:34] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint.sendInstruction(GuacamoleWebSocketTunnelEndpoint.java:152)
+[2025-03-28 11:59:34] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint.access$200(GuacamoleWebSocketTunnelEndpoint.java:53)
+[2025-03-28 11:59:34] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint$2.run(GuacamoleWebSocketTunnelEndpoint.java:253)
+[2025-03-28 11:59:34] [info] 11:59:34.724 [http-nio-8080-exec-4] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 659 milliseconds
+[2025-03-28 11:59:50] [info] 11:59:50.128 [http-nio-8080-exec-1] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 11:59:50] [info] 11:59:50.627 [http-nio-8080-exec-2] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 499 milliseconds
+[2025-03-28 12:00:06] [info] 12:00:06.075 [http-nio-8080-exec-4] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 12:00:06] [info] 12:00:06.614 [http-nio-8080-exec-6] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 539 milliseconds
+[2025-03-28 12:00:06] [info] Exception in thread "Thread-80" java.lang.IllegalStateException: Message will not be sent because the WebSocket session has been closed
+[2025-03-28 12:00:06] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.writeMessagePart(WsRemoteEndpointImplBase.java:442)
+[2025-03-28 12:00:06] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:314)
+[2025-03-28 12:00:06] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendMessageBlock(WsRemoteEndpointImplBase.java:254)
+[2025-03-28 12:00:06] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointImplBase.sendString(WsRemoteEndpointImplBase.java:195)
+[2025-03-28 12:00:06] [info] #011at org.apache.tomcat.websocket.WsRemoteEndpointBasic.sendText(WsRemoteEndpointBasic.java:37)
+[2025-03-28 12:00:06] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint.sendInstruction(GuacamoleWebSocketTunnelEndpoint.java:152)
+[2025-03-28 12:00:06] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint.access$200(GuacamoleWebSocketTunnelEndpoint.java:53)
+[2025-03-28 12:00:06] [info] #011at org.apache.guacamole.websocket.GuacamoleWebSocketTunnelEndpoint$2.run(GuacamoleWebSocketTunnelEndpoint.java:253)
+[2025-03-28 12:00:21] [info] 12:00:21.838 [http-nio-8080-exec-2] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 12:00:22] [info] 12:00:22.430 [http-nio-8080-exec-7] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 592 milliseconds
+[2025-03-28 12:00:37] [info] 12:00:37.793 [http-nio-8080-exec-2] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".
+[2025-03-28 12:00:38] [info] 12:00:38.855 [http-nio-8080-exec-3] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" disconnected from connection "1". Duration: 1062 milliseconds
+[2025-03-28 12:10:06] [info] 12:10:06.777 [http-nio-8080-exec-2] INFO  o.a.g.tunnel.TunnelRequestService - User "andrea" connected to connection "1".

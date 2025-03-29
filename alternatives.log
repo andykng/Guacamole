@@ -1,0 +1,36 @@
+update-alternatives 2025-03-28 09:52:40: run with --install /usr/bin/pager pager /bin/more 50 --slave /usr/share/man/man1/pager.1.gz pager.1.gz /usr/share/man/man1/more.1.gz
+update-alternatives 2025-03-28 09:56:48: run with --install /usr/bin/fakeroot fakeroot /usr/bin/fakeroot-sysv 50 --slave /usr/share/man/man1/fakeroot.1.gz fakeroot.1.gz /usr/share/man/man1/fakeroot-sysv.1.gz --slave /usr/share/man/man1/faked.1.gz faked.1.gz /usr/share/man/man1/faked-sysv.1.gz --slave /usr/share/man/es/man1/fakeroot.1.gz fakeroot.es.1.gz /usr/share/man/es/man1/fakeroot-sysv.1.gz --slave /usr/share/man/es/man1/faked.1.gz faked.es.1.gz /usr/share/man/es/man1/faked-sysv.1.gz --slave /usr/share/man/fr/man1/fakeroot.1.gz fakeroot.fr.1.gz /usr/share/man/fr/man1/fakeroot-sysv.1.gz --slave /usr/share/man/fr/man1/faked.1.gz faked.fr.1.gz /usr/share/man/fr/man1/faked-sysv.1.gz --slave /usr/share/man/sv/man1/fakeroot.1.gz fakeroot.sv.1.gz /usr/share/man/sv/man1/fakeroot-sysv.1.gz --slave /usr/share/man/sv/man1/faked.1.gz faked.sv.1.gz /usr/share/man/sv/man1/faked-sysv.1.gz
+update-alternatives 2025-03-28 09:56:48: link group fakeroot updated to point to /usr/bin/fakeroot-sysv
+update-alternatives 2025-03-28 09:56:48: run with --install /usr/bin/fakeroot fakeroot /usr/bin/fakeroot-tcp 30 --slave /usr/share/man/man1/fakeroot.1.gz fakeroot.1.gz /usr/share/man/man1/fakeroot-tcp.1.gz --slave /usr/share/man/man1/faked.1.gz faked.1.gz /usr/share/man/man1/faked-tcp.1.gz --slave /usr/share/man/es/man1/fakeroot.1.gz fakeroot.es.1.gz /usr/share/man/es/man1/fakeroot-tcp.1.gz --slave /usr/share/man/es/man1/faked.1.gz faked.es.1.gz /usr/share/man/es/man1/faked-tcp.1.gz --slave /usr/share/man/fr/man1/fakeroot.1.gz fakeroot.fr.1.gz /usr/share/man/fr/man1/fakeroot-tcp.1.gz --slave /usr/share/man/fr/man1/faked.1.gz faked.fr.1.gz /usr/share/man/fr/man1/faked-tcp.1.gz --slave /usr/share/man/sv/man1/fakeroot.1.gz fakeroot.sv.1.gz /usr/share/man/sv/man1/fakeroot-tcp.1.gz --slave /usr/share/man/sv/man1/faked.1.gz faked.sv.1.gz /usr/share/man/sv/man1/faked-tcp.1.gz
+update-alternatives 2025-03-28 09:57:36: run with --install /usr/bin/automake automake /usr/bin/automake-1.16 34 --slave /usr/bin/aclocal aclocal /usr/bin/aclocal-1.16 --slave /usr/share/man/man1/automake.1.gz automake.1.gz /usr/share/man/man1/automake-1.16.1.gz --slave /usr/share/man/man1/aclocal.1.gz aclocal.1.gz /usr/share/man/man1/aclocal-1.16.1.gz
+update-alternatives 2025-03-28 09:57:36: link group automake updated to point to /usr/bin/automake-1.16
+update-alternatives 2025-03-28 09:57:37: run with --quiet --install /usr/bin/pinentry pinentry /usr/bin/pinentry-curses 50 --slave /usr/share/man/man1/pinentry.1.gz pinentry.1.gz /usr/share/man/man1/pinentry-curses.1.gz
+update-alternatives 2025-03-28 09:57:37: link group pinentry updated to point to /usr/bin/pinentry-curses
+update-alternatives 2025-03-28 09:57:53: run with --quiet --install /lib/cpp cpp /usr/bin/cpp 10
+update-alternatives 2025-03-28 09:57:53: link group cpp updated to point to /usr/bin/cpp
+update-alternatives 2025-03-28 09:58:26: run with --quiet --install /usr/bin/cc cc /usr/bin/gcc 20
+update-alternatives 2025-03-28 09:58:26: link group cc updated to point to /usr/bin/gcc
+update-alternatives 2025-03-28 09:58:26: run with --quiet --install /usr/bin/c89 c89 /usr/bin/c89-gcc 20 --slave /usr/share/man/man1/c89.1.gz c89.1.gz /usr/share/man/man1/c89-gcc.1.gz
+update-alternatives 2025-03-28 09:58:26: link group c89 updated to point to /usr/bin/c89-gcc
+update-alternatives 2025-03-28 09:58:26: run with --quiet --install /usr/bin/c99 c99 /usr/bin/c99-gcc 20 --slave /usr/share/man/man1/c99.1.gz c99.1.gz /usr/share/man/man1/c99-gcc.1.gz
+update-alternatives 2025-03-28 09:58:26: link group c99 updated to point to /usr/bin/c99-gcc
+update-alternatives 2025-03-28 09:58:29: run with --install /usr/bin/c++ c++ /usr/bin/g++ 20
+update-alternatives 2025-03-28 09:58:29: link group c++ updated to point to /usr/bin/g++
+update-alternatives 2025-03-28 10:21:30: run with --install /bin/nc nc /bin/nc.openbsd 50 --slave /bin/netcat netcat /bin/nc.openbsd --slave /usr/share/man/man1/nc.1.gz nc.1.gz /usr/share/man/man1/nc_openbsd.1.gz --slave /usr/share/man/man1/netcat.1.gz netcat.1.gz /usr/share/man/man1/nc_openbsd.1.gz
+update-alternatives 2025-03-28 10:21:30: link group nc updated to point to /bin/nc.openbsd
+update-alternatives 2025-03-28 10:21:32: run with --install /usr/bin/java java /usr/lib/jvm/java-17-openjdk-amd64/bin/java 1711 --slave /usr/share/man/man1/java.1.gz java.1.gz /usr/lib/jvm/java-17-openjdk-amd64/man/man1/java.1.gz
+update-alternatives 2025-03-28 10:21:32: link group java updated to point to /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+update-alternatives 2025-03-28 10:21:33: run with --install /usr/bin/jpackage jpackage /usr/lib/jvm/java-17-openjdk-amd64/bin/jpackage 1711 --slave /usr/share/man/man1/jpackage.1.gz jpackage.1.gz /usr/lib/jvm/java-17-openjdk-amd64/man/man1/jpackage.1.gz
+update-alternatives 2025-03-28 10:21:33: link group jpackage updated to point to /usr/lib/jvm/java-17-openjdk-amd64/bin/jpackage
+update-alternatives 2025-03-28 10:21:33: run with --install /usr/bin/keytool keytool /usr/lib/jvm/java-17-openjdk-amd64/bin/keytool 1711 --slave /usr/share/man/man1/keytool.1.gz keytool.1.gz /usr/lib/jvm/java-17-openjdk-amd64/man/man1/keytool.1.gz
+update-alternatives 2025-03-28 10:21:33: link group keytool updated to point to /usr/lib/jvm/java-17-openjdk-amd64/bin/keytool
+update-alternatives 2025-03-28 10:21:33: run with --install /usr/bin/rmiregistry rmiregistry /usr/lib/jvm/java-17-openjdk-amd64/bin/rmiregistry 1711 --slave /usr/share/man/man1/rmiregistry.1.gz rmiregistry.1.gz /usr/lib/jvm/java-17-openjdk-amd64/man/man1/rmiregistry.1.gz
+update-alternatives 2025-03-28 10:21:33: link group rmiregistry updated to point to /usr/lib/jvm/java-17-openjdk-amd64/bin/rmiregistry
+update-alternatives 2025-03-28 10:21:33: run with --install /usr/bin/jexec jexec /usr/lib/jvm/java-17-openjdk-amd64/lib/jexec 1711 --slave /usr/share/binfmts/jar jexec-binfmt /usr/lib/jvm/java-17-openjdk-amd64/lib/jar.binfmt
+update-alternatives 2025-03-28 10:21:33: link group jexec updated to point to /usr/lib/jvm/java-17-openjdk-amd64/lib/jexec
+update-alternatives 2025-03-28 10:33:37: run with --install /etc/mysql/my.cnf my.cnf /etc/mysql/my.cnf.fallback 100
+update-alternatives 2025-03-28 10:33:37: link group my.cnf updated to point to /etc/mysql/my.cnf.fallback
+update-alternatives 2025-03-28 10:33:37: run with --install /etc/mysql/my.cnf my.cnf /etc/mysql/mariadb.cnf 200
+update-alternatives 2025-03-28 10:33:37: link group my.cnf updated to point to /etc/mysql/mariadb.cnf
+update-alternatives 2025-03-28 10:34:31: run with --quiet --install /usr/bin/awk awk /usr/bin/gawk 10 --slave /usr/share/man/man1/awk.1.gz awk.1.gz /usr/share/man/man1/gawk.1.gz --slave /usr/bin/nawk nawk /usr/bin/gawk --slave /usr/share/man/man1/nawk.1.gz nawk.1.gz /usr/share/man/man1/gawk.1.gz
+update-alternatives 2025-03-28 10:34:31: link group awk updated to point to /usr/bin/gawk

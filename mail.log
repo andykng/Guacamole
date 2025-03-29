@@ -1,0 +1,35 @@
+2025-03-28T09:41:59.384965+00:00 guacamole postfix[211]: Postfix is using backwards-compatible default settings
+2025-03-28T09:41:59.385138+00:00 guacamole postfix[211]: See http://www.postfix.org/COMPATIBILITY_README.html for details
+2025-03-28T09:41:59.385200+00:00 guacamole postfix[211]: To disable backwards compatibility use "postconf compatibility_level=3.6" and "postfix reload"
+2025-03-28T09:41:59.705416+00:00 guacamole postfix/postfix-script[303]: starting the Postfix mail system
+2025-03-28T09:41:59.711091+00:00 guacamole postfix/master[305]: daemon started -- version 3.7.11, configuration /etc/postfix
+2025-03-28T09:44:29.196602+00:00 guacamole postfix[203]: Postfix is using backwards-compatible default settings
+2025-03-28T09:44:29.196793+00:00 guacamole postfix[203]: See http://www.postfix.org/COMPATIBILITY_README.html for details
+2025-03-28T09:44:29.196853+00:00 guacamole postfix[203]: To disable backwards compatibility use "postconf compatibility_level=3.6" and "postfix reload"
+2025-03-28T09:44:29.533469+00:00 guacamole postfix/postfix-script[295]: starting the Postfix mail system
+2025-03-28T09:44:29.539043+00:00 guacamole postfix/master[297]: daemon started -- version 3.7.11, configuration /etc/postfix
+2025-03-28T09:46:06.685464+00:00 guacamole postfix[335]: Postfix is using backwards-compatible default settings
+2025-03-28T09:46:06.686111+00:00 guacamole postfix[335]: See http://www.postfix.org/COMPATIBILITY_README.html for details
+2025-03-28T09:46:06.686190+00:00 guacamole postfix[335]: To disable backwards compatibility use "postconf compatibility_level=3.6" and "postfix reload"
+2025-03-28T09:46:06.721329+00:00 guacamole postfix/postfix-script[354]: refreshing the Postfix mail system
+2025-03-28T09:46:06.729352+00:00 guacamole postfix/master[297]: reload -- version 3.7.11, configuration /etc/postfix
+2025-03-28T09:46:06.763215+00:00 guacamole postfix[365]: Postfix is using backwards-compatible default settings
+2025-03-28T09:46:06.763284+00:00 guacamole postfix[365]: See http://www.postfix.org/COMPATIBILITY_README.html for details
+2025-03-28T09:46:06.763311+00:00 guacamole postfix[365]: To disable backwards compatibility use "postconf compatibility_level=3.6" and "postfix reload"
+2025-03-28T09:46:06.790907+00:00 guacamole postfix/postfix-script[385]: refreshing the Postfix mail system
+2025-03-28T09:46:06.796073+00:00 guacamole postfix/master[297]: reload -- version 3.7.11, configuration /etc/postfix
+2025-03-28T09:46:06.901789+00:00 guacamole postfix[433]: Postfix is using backwards-compatible default settings
+2025-03-28T09:46:06.901906+00:00 guacamole postfix[433]: See http://www.postfix.org/COMPATIBILITY_README.html for details
+2025-03-28T09:46:06.901935+00:00 guacamole postfix[433]: To disable backwards compatibility use "postconf compatibility_level=3.6" and "postfix reload"
+2025-03-28T09:46:06.936507+00:00 guacamole postfix/postfix-script[450]: refreshing the Postfix mail system
+2025-03-28T09:46:06.943970+00:00 guacamole postfix/master[297]: reload -- version 3.7.11, configuration /etc/postfix
+2025-03-28T09:46:06.991886+00:00 guacamole postfix[470]: Postfix is using backwards-compatible default settings
+2025-03-28T09:46:06.992866+00:00 guacamole postfix[470]: See http://www.postfix.org/COMPATIBILITY_README.html for details
+2025-03-28T09:46:06.992949+00:00 guacamole postfix[470]: To disable backwards compatibility use "postconf compatibility_level=3.6" and "postfix reload"
+2025-03-28T09:46:07.031251+00:00 guacamole postfix/postfix-script[491]: refreshing the Postfix mail system
+2025-03-28T09:46:07.038435+00:00 guacamole postfix/master[297]: reload -- version 3.7.11, configuration /etc/postfix
+2025-03-28T09:46:07.069853+00:00 guacamole postfix[500]: Postfix is using backwards-compatible default settings
+2025-03-28T09:46:07.071460+00:00 guacamole postfix[500]: See http://www.postfix.org/COMPATIBILITY_README.html for details
+2025-03-28T09:46:07.072278+00:00 guacamole postfix[500]: To disable backwards compatibility use "postconf compatibility_level=3.6" and "postfix reload"
+2025-03-28T09:46:07.091133+00:00 guacamole postfix/postfix-script[507]: refreshing the Postfix mail system
+2025-03-28T09:46:07.096975+00:00 guacamole postfix/master[297]: reload -- version 3.7.11, configuration /etc/postfix

@@ -1,0 +1,50 @@
+2025-03-28T09:41:59.167636+00:00 guacamole sshd[194]: Server listening on :: port 22.
+2025-03-28T09:42:09.651453+00:00 guacamole login[157]: pam_unix(login:auth): auth could not identify password for [password]
+2025-03-28T09:42:19.485259+00:00 guacamole login[310]: pam_unix(login:session): session opened for user root(uid=0) by LOGIN(uid=0)
+2025-03-28T09:42:19.487800+00:00 guacamole login[310]: pam_systemd(login:session): Failed to create session: Seat has no VTs but VT number not 0
+2025-03-28T09:42:19.490019+00:00 guacamole login[315]: ROOT LOGIN  on '/dev/tty1'
+2025-03-28T09:44:21.503659+00:00 guacamole systemd-logind[111]: The system will reboot now!
+2025-03-28T09:44:21.528755+00:00 guacamole systemd-logind[111]: System is rebooting.
+2025-03-28T09:44:28.978568+00:00 guacamole systemd-logind[147]: New seat seat0.
+2025-03-28T09:44:29.123215+00:00 guacamole sshd[201]: Server listening on :: port 22.
+2025-03-28T09:44:40.383121+00:00 guacamole login[152]: pam_unix(login:session): session opened for user root(uid=0) by LOGIN(uid=0)
+2025-03-28T09:44:40.384490+00:00 guacamole login[152]: pam_systemd(login:session): Failed to create session: Seat has no VTs but VT number not 0
+2025-03-28T09:44:40.386972+00:00 guacamole login[306]: ROOT LOGIN  on '/dev/tty1'
+2025-03-28T09:45:02.134188+00:00 guacamole CRON[310]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+2025-03-28T09:45:02.247253+00:00 guacamole CRON[310]: pam_unix(cron:session): session closed for user root
+2025-03-28T09:47:44.011167+00:00 guacamole sshd[753]: Connection reset by 10.187.20.42 port 64407 [preauth]
+2025-03-28T09:47:50.194752+00:00 guacamole sshd[755]: Connection reset by 10.187.20.42 port 64421 [preauth]
+2025-03-28T09:47:59.341523+00:00 guacamole sshd[757]: Connection reset by 10.187.20.42 port 64430 [preauth]
+2025-03-28T09:48:19.377910+00:00 guacamole sshd[759]: Connection reset by 10.187.20.42 port 64461 [preauth]
+2025-03-28T09:49:56.327384+00:00 guacamole sshd[762]: Accepted publickey for root from 10.187.20.42 port 64602 ssh2: RSA SHA256:SnXeFFhhj1naltUDh3Nvs79jxSLXTFmf4PMlBbM3Bvw
+2025-03-28T09:49:56.379086+00:00 guacamole sshd[762]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+2025-03-28T09:49:56.400270+00:00 guacamole systemd-logind[147]: New session 82442 of user root.
+2025-03-28T09:49:56.429842+00:00 guacamole (systemd): pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+2025-03-28T09:49:56.512189+00:00 guacamole sshd[762]: pam_env(sshd:session): deprecated reading of user environment enabled
+2025-03-28T10:33:50.207457+00:00 guacamole groupadd[24869]: group added to /etc/group: name=mysql, GID=113
+2025-03-28T10:33:50.358002+00:00 guacamole groupadd[24869]: group added to /etc/gshadow: name=mysql
+2025-03-28T10:33:50.358096+00:00 guacamole groupadd[24869]: new group: name=mysql, GID=113
+2025-03-28T10:33:51.187332+00:00 guacamole useradd[24877]: new user: name=mysql, UID=104, GID=113, home=/nonexistent, shell=/bin/false, from=none
+2025-03-28T10:33:52.564056+00:00 guacamole chfn[24884]: changed user 'mysql' information
+2025-03-28T10:45:04.867466+00:00 guacamole CRON[25542]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+2025-03-28T10:45:05.250240+00:00 guacamole CRON[25542]: pam_unix(cron:session): session closed for user root
+2025-03-28T11:39:33.332198+00:00 guacamole useradd[26196]: new group: name=guacd, GID=1000
+2025-03-28T11:39:33.405759+00:00 guacamole useradd[26196]: new user: name=guacd, UID=1000, GID=1000, home=/var/lib/guacd, shell=/bin/false, from=/dev/pts/3
+2025-03-28T11:45:02.101033+00:00 guacamole CRON[26360]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+2025-03-28T11:45:02.157119+00:00 guacamole CRON[26360]: pam_unix(cron:session): session closed for user root
+2025-03-28T11:52:42.729529+00:00 guacamole sudo:     root : TTY=pts/3 ; PWD=/etc/guacamole ; USER=root ; COMMAND=/usr/bin/apt install freerdp2-x11
+2025-03-28T11:52:42.730277+00:00 guacamole sudo: pam_limits(sudo:session): Could not set limit for 'core' to soft=0, hard=-1: Operation not permitted; uid=0,euid=0
+2025-03-28T11:52:42.730418+00:00 guacamole sudo: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-28T11:53:56.755151+00:00 guacamole sudo: pam_unix(sudo:session): session closed for user root
+2025-03-28T12:45:01.327070+00:00 guacamole CRON[35847]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+2025-03-28T12:45:01.507538+00:00 guacamole CRON[35847]: pam_unix(cron:session): session closed for user root
+2025-03-28T13:00:11.238450+00:00 guacamole sshd[39490]: Connection closed by 10.31.208.73 port 50436 [preauth]
+2025-03-28T13:45:01.460437+00:00 guacamole CRON[50257]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+2025-03-28T13:45:01.566689+00:00 guacamole CRON[50257]: pam_unix(cron:session): session closed for user root
+2025-03-28T14:00:02.783707+00:00 guacamole sshd[53866]: Connection closed by 10.31.208.73 port 38376 [preauth]
+2025-03-28T14:45:01.633494+00:00 guacamole CRON[64686]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+2025-03-28T14:45:01.831394+00:00 guacamole CRON[64686]: pam_unix(cron:session): session closed for user root
+2025-03-28T15:00:03.280658+00:00 guacamole sshd[68296]: Connection closed by 10.31.208.73 port 49572 [preauth]
+2025-03-28T15:45:01.757579+00:00 guacamole CRON[79225]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+2025-03-28T15:45:02.060969+00:00 guacamole CRON[79225]: pam_unix(cron:session): session closed for user root
+2025-03-28T16:00:03.386623+00:00 guacamole sshd[82911]: Connection closed by 10.31.208.73 port 59640 [preauth]

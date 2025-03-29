@@ -1,0 +1,363 @@
+==> /var/log/alternatives.log <==
+update-alternatives 2025-03-28 09:52:40: run with --install /usr/bin/pager pager /bin/more 50 --slave /usr/share/man/man1/pager.1.gz pager.1.gz /usr/share/man/man1/more.1.gz
+update-alternatives 2025-03-28 09:56:48: run with --install /usr/bin/fakeroot fakeroot /usr/bin/fakeroot-sysv 50 --slave /usr/share/man/man1/fakeroot.1.gz fakeroot.1.gz /usr/share/man/man1/fakeroot-sysv.1.gz --slave /usr/share/man/man1/faked.1.gz faked.1.gz /usr/share/man/man1/faked-sysv.1.gz --slave /usr/share/man/es/man1/fakeroot.1.gz fakeroot.es.1.gz /usr/share/man/es/man1/fakeroot-sysv.1.gz --slave /usr/share/man/es/man1/faked.1.gz faked.es.1.gz /usr/share/man/es/man1/faked-sysv.1.gz --slave /usr/share/man/fr/man1/fakeroot.1.gz fakeroot.fr.1.gz /usr/share/man/fr/man1/fakeroot-sysv.1.gz --slave /usr/share/man/fr/man1/faked.1.gz faked.fr.1.gz /usr/share/man/fr/man1/faked-sysv.1.gz --slave /usr/share/man/sv/man1/fakeroot.1.gz fakeroot.sv.1.gz /usr/share/man/sv/man1/fakeroot-sysv.1.gz --slave /usr/share/man/sv/man1/faked.1.gz faked.sv.1.gz /usr/share/man/sv/man1/faked-sysv.1.gz
+update-alternatives 2025-03-28 09:56:48: link group fakeroot updated to point to /usr/bin/fakeroot-sysv
+update-alternatives 2025-03-28 09:56:48: run with --install /usr/bin/fakeroot fakeroot /usr/bin/fakeroot-tcp 30 --slave /usr/share/man/man1/fakeroot.1.gz fakeroot.1.gz /usr/share/man/man1/fakeroot-tcp.1.gz --slave /usr/share/man/man1/faked.1.gz faked.1.gz /usr/share/man/man1/faked-tcp.1.gz --slave /usr/share/man/es/man1/fakeroot.1.gz fakeroot.es.1.gz /usr/share/man/es/man1/fakeroot-tcp.1.gz --slave /usr/share/man/es/man1/faked.1.gz faked.es.1.gz /usr/share/man/es/man1/faked-tcp.1.gz --slave /usr/share/man/fr/man1/fakeroot.1.gz fakeroot.fr.1.gz /usr/share/man/fr/man1/fakeroot-tcp.1.gz --slave /usr/share/man/fr/man1/faked.1.gz faked.fr.1.gz /usr/share/man/fr/man1/faked-tcp.1.gz --slave /usr/share/man/sv/man1/fakeroot.1.gz fakeroot.sv.1.gz /usr/share/man/sv/man1/fakeroot-tcp.1.gz --slave /usr/share/man/sv/man1/faked.1.gz faked.sv.1.gz /usr/share/man/sv/man1/faked-tcp.1.gz
+update-alternatives 2025-03-28 09:57:36: run with --install /usr/bin/automake automake /usr/bin/automake-1.16 34 --slave /usr/bin/aclocal aclocal /usr/bin/aclocal-1.16 --slave /usr/share/man/man1/automake.1.gz automake.1.gz /usr/share/man/man1/automake-1.16.1.gz --slave /usr/share/man/man1/aclocal.1.gz aclocal.1.gz /usr/share/man/man1/aclocal-1.16.1.gz
+update-alternatives 2025-03-28 09:57:36: link group automake updated to point to /usr/bin/automake-1.16
+update-alternatives 2025-03-28 09:57:37: run with --quiet --install /usr/bin/pinentry pinentry /usr/bin/pinentry-curses 50 --slave /usr/share/man/man1/pinentry.1.gz pinentry.1.gz /usr/share/man/man1/pinentry-curses.1.gz
+update-alternatives 2025-03-28 09:57:37: link group pinentry updated to point to /usr/bin/pinentry-curses
+update-alternatives 2025-03-28 09:57:53: run with --quiet --install /lib/cpp cpp /usr/bin/cpp 10
+update-alternatives 2025-03-28 09:57:53: link group cpp updated to point to /usr/bin/cpp
+update-alternatives 2025-03-28 09:58:26: run with --quiet --install /usr/bin/cc cc /usr/bin/gcc 20
+update-alternatives 2025-03-28 09:58:26: link group cc updated to point to /usr/bin/gcc
+update-alternatives 2025-03-28 09:58:26: run with --quiet --install /usr/bin/c89 c89 /usr/bin/c89-gcc 20 --slave /usr/share/man/man1/c89.1.gz c89.1.gz /usr/share/man/man1/c89-gcc.1.gz
+update-alternatives 2025-03-28 09:58:26: link group c89 updated to point to /usr/bin/c89-gcc
+update-alternatives 2025-03-28 09:58:26: run with --quiet --install /usr/bin/c99 c99 /usr/bin/c99-gcc 20 --slave /usr/share/man/man1/c99.1.gz c99.1.gz /usr/share/man/man1/c99-gcc.1.gz
+update-alternatives 2025-03-28 09:58:26: link group c99 updated to point to /usr/bin/c99-gcc
+update-alternatives 2025-03-28 09:58:29: run with --install /usr/bin/c++ c++ /usr/bin/g++ 20
+update-alternatives 2025-03-28 09:58:29: link group c++ updated to point to /usr/bin/g++
+update-alternatives 2025-03-28 10:21:30: run with --install /bin/nc nc /bin/nc.openbsd 50 --slave /bin/netcat netcat /bin/nc.openbsd --slave /usr/share/man/man1/nc.1.gz nc.1.gz /usr/share/man/man1/nc_openbsd.1.gz --slave /usr/share/man/man1/netcat.1.gz netcat.1.gz /usr/share/man/man1/nc_openbsd.1.gz
+update-alternatives 2025-03-28 10:21:30: link group nc updated to point to /bin/nc.openbsd
+update-alternatives 2025-03-28 10:21:32: run with --install /usr/bin/java java /usr/lib/jvm/java-17-openjdk-amd64/bin/java 1711 --slave /usr/share/man/man1/java.1.gz java.1.gz /usr/lib/jvm/java-17-openjdk-amd64/man/man1/java.1.gz
+update-alternatives 2025-03-28 10:21:32: link group java updated to point to /usr/lib/jvm/java-17-openjdk-amd64/bin/java
+update-alternatives 2025-03-28 10:21:33: run with --install /usr/bin/jpackage jpackage /usr/lib/jvm/java-17-openjdk-amd64/bin/jpackage 1711 --slave /usr/share/man/man1/jpackage.1.gz jpackage.1.gz /usr/lib/jvm/java-17-openjdk-amd64/man/man1/jpackage.1.gz
+update-alternatives 2025-03-28 10:21:33: link group jpackage updated to point to /usr/lib/jvm/java-17-openjdk-amd64/bin/jpackage
+update-alternatives 2025-03-28 10:21:33: run with --install /usr/bin/keytool keytool /usr/lib/jvm/java-17-openjdk-amd64/bin/keytool 1711 --slave /usr/share/man/man1/keytool.1.gz keytool.1.gz /usr/lib/jvm/java-17-openjdk-amd64/man/man1/keytool.1.gz
+update-alternatives 2025-03-28 10:21:33: link group keytool updated to point to /usr/lib/jvm/java-17-openjdk-amd64/bin/keytool
+update-alternatives 2025-03-28 10:21:33: run with --install /usr/bin/rmiregistry rmiregistry /usr/lib/jvm/java-17-openjdk-amd64/bin/rmiregistry 1711 --slave /usr/share/man/man1/rmiregistry.1.gz rmiregistry.1.gz /usr/lib/jvm/java-17-openjdk-amd64/man/man1/rmiregistry.1.gz
+update-alternatives 2025-03-28 10:21:33: link group rmiregistry updated to point to /usr/lib/jvm/java-17-openjdk-amd64/bin/rmiregistry
+update-alternatives 2025-03-28 10:21:33: run with --install /usr/bin/jexec jexec /usr/lib/jvm/java-17-openjdk-amd64/lib/jexec 1711 --slave /usr/share/binfmts/jar jexec-binfmt /usr/lib/jvm/java-17-openjdk-amd64/lib/jar.binfmt
+update-alternatives 2025-03-28 10:21:33: link group jexec updated to point to /usr/lib/jvm/java-17-openjdk-amd64/lib/jexec
+update-alternatives 2025-03-28 10:33:37: run with --install /etc/mysql/my.cnf my.cnf /etc/mysql/my.cnf.fallback 100
+update-alternatives 2025-03-28 10:33:37: link group my.cnf updated to point to /etc/mysql/my.cnf.fallback
+update-alternatives 2025-03-28 10:33:37: run with --install /etc/mysql/my.cnf my.cnf /etc/mysql/mariadb.cnf 200
+update-alternatives 2025-03-28 10:33:37: link group my.cnf updated to point to /etc/mysql/mariadb.cnf
+update-alternatives 2025-03-28 10:34:31: run with --quiet --install /usr/bin/awk awk /usr/bin/gawk 10 --slave /usr/share/man/man1/awk.1.gz awk.1.gz /usr/share/man/man1/gawk.1.gz --slave /usr/bin/nawk nawk /usr/bin/gawk --slave /usr/share/man/man1/nawk.1.gz nawk.1.gz /usr/share/man/man1/gawk.1.gz
+update-alternatives 2025-03-28 10:34:31: link group awk updated to point to /usr/bin/gawk
+
+==> /var/log/auth.log <==
+2025-03-28T09:41:59.167636+00:00 guacamole sshd[194]: Server listening on :: port 22.
+2025-03-28T09:42:09.651453+00:00 guacamole login[157]: pam_unix(login:auth): auth could not identify password for [password]
+2025-03-28T09:42:19.485259+00:00 guacamole login[310]: pam_unix(login:session): session opened for user root(uid=0) by LOGIN(uid=0)
+2025-03-28T09:42:19.487800+00:00 guacamole login[310]: pam_systemd(login:session): Failed to create session: Seat has no VTs but VT number not 0
+2025-03-28T09:42:19.490019+00:00 guacamole login[315]: ROOT LOGIN  on '/dev/tty1'
+2025-03-28T09:44:21.503659+00:00 guacamole systemd-logind[111]: The system will reboot now!
+2025-03-28T09:44:21.528755+00:00 guacamole systemd-logind[111]: System is rebooting.
+2025-03-28T09:44:28.978568+00:00 guacamole systemd-logind[147]: New seat seat0.
+2025-03-28T09:44:29.123215+00:00 guacamole sshd[201]: Server listening on :: port 22.
+2025-03-28T09:44:40.383121+00:00 guacamole login[152]: pam_unix(login:session): session opened for user root(uid=0) by LOGIN(uid=0)
+2025-03-28T09:44:40.384490+00:00 guacamole login[152]: pam_systemd(login:session): Failed to create session: Seat has no VTs but VT number not 0
+2025-03-28T09:44:40.386972+00:00 guacamole login[306]: ROOT LOGIN  on '/dev/tty1'
+2025-03-28T09:45:02.134188+00:00 guacamole CRON[310]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+2025-03-28T09:45:02.247253+00:00 guacamole CRON[310]: pam_unix(cron:session): session closed for user root
+2025-03-28T09:47:44.011167+00:00 guacamole sshd[753]: Connection reset by 10.187.20.42 port 64407 [preauth]
+2025-03-28T09:47:50.194752+00:00 guacamole sshd[755]: Connection reset by 10.187.20.42 port 64421 [preauth]
+2025-03-28T09:47:59.341523+00:00 guacamole sshd[757]: Connection reset by 10.187.20.42 port 64430 [preauth]
+2025-03-28T09:48:19.377910+00:00 guacamole sshd[759]: Connection reset by 10.187.20.42 port 64461 [preauth]
+2025-03-28T09:49:56.327384+00:00 guacamole sshd[762]: Accepted publickey for root from 10.187.20.42 port 64602 ssh2: RSA SHA256:SnXeFFhhj1naltUDh3Nvs79jxSLXTFmf4PMlBbM3Bvw
+2025-03-28T09:49:56.379086+00:00 guacamole sshd[762]: pam_unix(sshd:session): session opened for user root(uid=0) by (uid=0)
+2025-03-28T09:49:56.400270+00:00 guacamole systemd-logind[147]: New session 82442 of user root.
+2025-03-28T09:49:56.429842+00:00 guacamole (systemd): pam_unix(systemd-user:session): session opened for user root(uid=0) by (uid=0)
+2025-03-28T09:49:56.512189+00:00 guacamole sshd[762]: pam_env(sshd:session): deprecated reading of user environment enabled
+2025-03-28T10:33:50.207457+00:00 guacamole groupadd[24869]: group added to /etc/group: name=mysql, GID=113
+2025-03-28T10:33:50.358002+00:00 guacamole groupadd[24869]: group added to /etc/gshadow: name=mysql
+2025-03-28T10:33:50.358096+00:00 guacamole groupadd[24869]: new group: name=mysql, GID=113
+2025-03-28T10:33:51.187332+00:00 guacamole useradd[24877]: new user: name=mysql, UID=104, GID=113, home=/nonexistent, shell=/bin/false, from=none
+2025-03-28T10:33:52.564056+00:00 guacamole chfn[24884]: changed user 'mysql' information
+2025-03-28T10:45:04.867466+00:00 guacamole CRON[25542]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+2025-03-28T10:45:05.250240+00:00 guacamole CRON[25542]: pam_unix(cron:session): session closed for user root
+2025-03-28T11:39:33.332198+00:00 guacamole useradd[26196]: new group: name=guacd, GID=1000
+2025-03-28T11:39:33.405759+00:00 guacamole useradd[26196]: new user: name=guacd, UID=1000, GID=1000, home=/var/lib/guacd, shell=/bin/false, from=/dev/pts/3
+2025-03-28T11:45:02.101033+00:00 guacamole CRON[26360]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+2025-03-28T11:45:02.157119+00:00 guacamole CRON[26360]: pam_unix(cron:session): session closed for user root
+2025-03-28T11:52:42.729529+00:00 guacamole sudo:     root : TTY=pts/3 ; PWD=/etc/guacamole ; USER=root ; COMMAND=/usr/bin/apt install freerdp2-x11
+2025-03-28T11:52:42.730277+00:00 guacamole sudo: pam_limits(sudo:session): Could not set limit for 'core' to soft=0, hard=-1: Operation not permitted; uid=0,euid=0
+2025-03-28T11:52:42.730418+00:00 guacamole sudo: pam_unix(sudo:session): session opened for user root(uid=0) by root(uid=0)
+2025-03-28T11:53:56.755151+00:00 guacamole sudo: pam_unix(sudo:session): session closed for user root
+2025-03-28T12:45:01.327070+00:00 guacamole CRON[35847]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+2025-03-28T12:45:01.507538+00:00 guacamole CRON[35847]: pam_unix(cron:session): session closed for user root
+2025-03-28T13:00:11.238450+00:00 guacamole sshd[39490]: Connection closed by 10.31.208.73 port 50436 [preauth]
+2025-03-28T13:45:01.460437+00:00 guacamole CRON[50257]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+2025-03-28T13:45:01.566689+00:00 guacamole CRON[50257]: pam_unix(cron:session): session closed for user root
+2025-03-28T14:00:02.783707+00:00 guacamole sshd[53866]: Connection closed by 10.31.208.73 port 38376 [preauth]
+2025-03-28T14:45:01.633494+00:00 guacamole CRON[64686]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+2025-03-28T14:45:01.831394+00:00 guacamole CRON[64686]: pam_unix(cron:session): session closed for user root
+2025-03-28T15:00:03.280658+00:00 guacamole sshd[68296]: Connection closed by 10.31.208.73 port 49572 [preauth]
+2025-03-28T15:45:01.757579+00:00 guacamole CRON[79225]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+2025-03-28T15:45:02.060969+00:00 guacamole CRON[79225]: pam_unix(cron:session): session closed for user root
+2025-03-28T16:00:03.386623+00:00 guacamole sshd[82911]: Connection closed by 10.31.208.73 port 59640 [preauth]
+
+==> /var/log/catalina.2025-03-28.log <==
+28-Mar-2025 11:03:18.313 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.4-2-pve
+28-Mar-2025 11:03:18.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Mar-2025 11:03:18.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-openjdk-amd64
+28-Mar-2025 11:03:18.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.14+7-Debian-1deb12u1
+28-Mar-2025 11:03:18.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Debian
+28-Mar-2025 11:03:18.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /var/lib/tomcat9
+28-Mar-2025 11:03:18.314 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/share/tomcat9
+28-Mar-2025 11:03:18.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Mar-2025 11:03:18.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Mar-2025 11:03:18.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+28-Mar-2025 11:03:18.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+28-Mar-2025 11:03:18.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Mar-2025 11:03:18.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/var/lib/tomcat9/conf/logging.properties
+28-Mar-2025 11:03:18.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Mar-2025 11:03:18.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+28-Mar-2025 11:03:18.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Mar-2025 11:03:18.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Mar-2025 11:03:18.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Mar-2025 11:03:18.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Mar-2025 11:03:18.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/var/lib/tomcat9
+28-Mar-2025 11:03:18.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/share/tomcat9
+28-Mar-2025 11:03:18.368 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/tmp
+28-Mar-2025 11:03:18.377 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.2].
+28-Mar-2025 11:03:18.377 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+28-Mar-2025 11:03:18.377 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+28-Mar-2025 11:03:18.399 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.15 3 Sep 2024]
+28-Mar-2025 11:03:18.924 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Mar-2025 11:03:18.978 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1212] milliseconds
+28-Mar-2025 11:03:19.028 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Mar-2025 11:03:19.029 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.70 (Debian)]
+28-Mar-2025 11:03:19.051 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/etc/tomcat9/Catalina/localhost/host-manager.xml]
+28-Mar-2025 11:03:19.074 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/host-manager] in deployment descriptor [/etc/tomcat9/Catalina/localhost/host-manager.xml] has been ignored
+28-Mar-2025 11:03:20.892 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2025 11:03:20.961 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/etc/tomcat9/Catalina/localhost/host-manager.xml] has finished in [1,906] ms
+28-Mar-2025 11:03:20.961 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/etc/tomcat9/Catalina/localhost/manager.xml]
+28-Mar-2025 11:03:20.962 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/manager] in deployment descriptor [/etc/tomcat9/Catalina/localhost/manager.xml] has been ignored
+28-Mar-2025 11:03:21.822 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2025 11:03:21.827 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/etc/tomcat9/Catalina/localhost/manager.xml] has finished in [866] ms
+28-Mar-2025 11:03:21.867 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/var/lib/tomcat9/webapps/guacamole.war]
+28-Mar-2025 11:03:24.577 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2025 11:03:44.288 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/var/lib/tomcat9/webapps/guacamole.war] has finished in [22,421] ms
+28-Mar-2025 11:03:44.288 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/var/lib/tomcat9/webapps/ROOT]
+28-Mar-2025 11:03:47.098 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2025 11:03:47.100 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/var/lib/tomcat9/webapps/ROOT] has finished in [2,812] ms
+28-Mar-2025 11:03:47.102 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Mar-2025 11:03:48.635 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [29656] milliseconds
+28-Mar-2025 11:43:23.088 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Mar-2025 11:43:23.090 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Mar-2025 11:43:24.549 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Mar-2025 11:43:25.446 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-Mar-2025 11:43:39.978 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.70 (Debian)
+28-Mar-2025 11:43:39.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 27 2023 15:51:32 UTC
+28-Mar-2025 11:43:39.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.70.0
+28-Mar-2025 11:43:39.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+28-Mar-2025 11:43:39.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.8.4-2-pve
+28-Mar-2025 11:43:39.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Mar-2025 11:43:39.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-openjdk-amd64
+28-Mar-2025 11:43:39.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.14+7-Debian-1deb12u1
+28-Mar-2025 11:43:39.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Debian
+28-Mar-2025 11:43:39.980 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /var/lib/tomcat9
+28-Mar-2025 11:43:39.980 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /usr/share/tomcat9
+28-Mar-2025 11:43:40.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Mar-2025 11:43:40.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Mar-2025 11:43:40.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+28-Mar-2025 11:43:40.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+28-Mar-2025 11:43:40.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Mar-2025 11:43:40.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/var/lib/tomcat9/conf/logging.properties
+28-Mar-2025 11:43:40.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Mar-2025 11:43:40.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+28-Mar-2025 11:43:40.518 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Mar-2025 11:43:40.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Mar-2025 11:43:40.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Mar-2025 11:43:40.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Mar-2025 11:43:40.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/var/lib/tomcat9
+28-Mar-2025 11:43:40.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/usr/share/tomcat9
+28-Mar-2025 11:43:40.519 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/tmp
+28-Mar-2025 11:43:40.593 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.35] using APR version [1.7.2].
+28-Mar-2025 11:43:40.593 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+28-Mar-2025 11:43:40.593 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+28-Mar-2025 11:43:40.596 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.15 3 Sep 2024]
+28-Mar-2025 11:43:41.868 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Mar-2025 11:43:41.921 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [5281] milliseconds
+28-Mar-2025 11:43:41.994 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Mar-2025 11:43:41.995 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.70 (Debian)]
+28-Mar-2025 11:43:42.008 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/etc/tomcat9/Catalina/localhost/host-manager.xml]
+28-Mar-2025 11:43:42.048 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/host-manager] in deployment descriptor [/etc/tomcat9/Catalina/localhost/host-manager.xml] has been ignored
+28-Mar-2025 11:43:43.719 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2025 11:43:43.790 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/etc/tomcat9/Catalina/localhost/host-manager.xml] has finished in [1,780] ms
+28-Mar-2025 11:43:43.790 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/etc/tomcat9/Catalina/localhost/manager.xml]
+28-Mar-2025 11:43:43.794 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/manager] in deployment descriptor [/etc/tomcat9/Catalina/localhost/manager.xml] has been ignored
+28-Mar-2025 11:43:44.569 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2025 11:43:44.570 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/etc/tomcat9/Catalina/localhost/manager.xml] has finished in [780] ms
+28-Mar-2025 11:43:44.626 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/var/lib/tomcat9/webapps/guacamole.war]
+28-Mar-2025 11:43:47.204 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2025 11:43:51.046 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/var/lib/tomcat9/webapps/guacamole.war] has finished in [6,420] ms
+28-Mar-2025 11:43:51.047 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/var/lib/tomcat9/webapps/ROOT]
+28-Mar-2025 11:43:51.636 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2025 11:43:51.641 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/var/lib/tomcat9/webapps/ROOT] has finished in [594] ms
+28-Mar-2025 11:43:51.646 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Mar-2025 11:43:51.665 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [9741] milliseconds
+
+==> /var/log/cron.log <==
+2025-03-28T09:44:28.978547+00:00 guacamole cron[136]: (CRON) INFO (pidfile fd = 3)
+2025-03-28T09:44:28.978563+00:00 guacamole cron[136]: (CRON) INFO (Running @reboot jobs)
+2025-03-28T09:45:02.135412+00:00 guacamole CRON[311]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2025-03-28T10:45:05.250045+00:00 guacamole CRON[25543]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2025-03-28T11:45:02.157008+00:00 guacamole CRON[26361]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2025-03-28T12:45:01.507396+00:00 guacamole CRON[35849]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2025-03-28T13:45:01.566564+00:00 guacamole CRON[50258]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2025-03-28T14:45:01.831351+00:00 guacamole CRON[64688]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2025-03-28T15:45:02.060861+00:00 guacamole CRON[79226]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+
+==> /var/log/dpkg.log <==
+2025-03-28 10:35:29 status installed mariadb-server:amd64 1:10.11.11-0+deb12u1
+2025-03-28 10:35:29 configure mariadb-plugin-provider-bzip2:amd64 1:10.11.11-0+deb12u1 <none>
+2025-03-28 10:35:29 status unpacked mariadb-plugin-provider-bzip2:amd64 1:10.11.11-0+deb12u1
+2025-03-28 10:35:29 status triggers-pending mariadb-server:amd64 1:10.11.11-0+deb12u1
+2025-03-28 10:35:30 status half-configured mariadb-plugin-provider-bzip2:amd64 1:10.11.11-0+deb12u1
+2025-03-28 10:35:30 status installed mariadb-plugin-provider-bzip2:amd64 1:10.11.11-0+deb12u1
+2025-03-28 10:35:30 configure mariadb-plugin-provider-lzma:amd64 1:10.11.11-0+deb12u1 <none>
+2025-03-28 10:35:30 status unpacked mariadb-plugin-provider-lzma:amd64 1:10.11.11-0+deb12u1
+2025-03-28 10:35:30 status half-configured mariadb-plugin-provider-lzma:amd64 1:10.11.11-0+deb12u1
+2025-03-28 10:35:30 status installed mariadb-plugin-provider-lzma:amd64 1:10.11.11-0+deb12u1
+2025-03-28 10:35:30 configure mariadb-plugin-provider-lzo:amd64 1:10.11.11-0+deb12u1 <none>
+2025-03-28 10:35:30 status unpacked mariadb-plugin-provider-lzo:amd64 1:10.11.11-0+deb12u1
+2025-03-28 10:35:30 status half-configured mariadb-plugin-provider-lzo:amd64 1:10.11.11-0+deb12u1
+2025-03-28 10:35:30 status installed mariadb-plugin-provider-lzo:amd64 1:10.11.11-0+deb12u1
+2025-03-28 10:35:30 configure mariadb-plugin-provider-lz4:amd64 1:10.11.11-0+deb12u1 <none>
+2025-03-28 10:35:30 status unpacked mariadb-plugin-provider-lz4:amd64 1:10.11.11-0+deb12u1
+2025-03-28 10:35:30 status half-configured mariadb-plugin-provider-lz4:amd64 1:10.11.11-0+deb12u1
+2025-03-28 10:35:30 status installed mariadb-plugin-provider-lz4:amd64 1:10.11.11-0+deb12u1
+2025-03-28 10:35:30 configure libcgi-fast-perl:all 1:2.15-1 <none>
+2025-03-28 10:35:30 status unpacked libcgi-fast-perl:all 1:2.15-1
+2025-03-28 10:35:30 status half-configured libcgi-fast-perl:all 1:2.15-1
+2025-03-28 10:35:30 status installed libcgi-fast-perl:all 1:2.15-1
+2025-03-28 10:35:30 configure mariadb-plugin-provider-snappy:amd64 1:10.11.11-0+deb12u1 <none>
+2025-03-28 10:35:30 status unpacked mariadb-plugin-provider-snappy:amd64 1:10.11.11-0+deb12u1
+2025-03-28 10:35:30 status half-configured mariadb-plugin-provider-snappy:amd64 1:10.11.11-0+deb12u1
+2025-03-28 10:35:31 status installed mariadb-plugin-provider-snappy:amd64 1:10.11.11-0+deb12u1
+2025-03-28 10:35:31 trigproc man-db:amd64 2.11.2-2 <none>
+2025-03-28 10:35:31 status half-configured man-db:amd64 2.11.2-2
+2025-03-28 10:35:37 status installed man-db:amd64 2.11.2-2
+2025-03-28 10:35:37 trigproc libc-bin:amd64 2.36-9+deb12u10 <none>
+2025-03-28 10:35:37 status half-configured libc-bin:amd64 2.36-9+deb12u10
+2025-03-28 10:35:37 status installed libc-bin:amd64 2.36-9+deb12u10
+2025-03-28 10:35:37 trigproc mariadb-server:amd64 1:10.11.11-0+deb12u1 <none>
+2025-03-28 10:35:37 status half-configured mariadb-server:amd64 1:10.11.11-0+deb12u1
+2025-03-28 10:35:38 status installed mariadb-server:amd64 1:10.11.11-0+deb12u1
+2025-03-28 11:52:54 startup archives unpack
+2025-03-28 11:52:57 install libxcursor1:amd64 <none> 1:1.2.1-1
+2025-03-28 11:52:57 status triggers-pending libc-bin:amd64 2.36-9+deb12u10
+2025-03-28 11:52:57 status half-installed libxcursor1:amd64 1:1.2.1-1
+2025-03-28 11:52:57 status unpacked libxcursor1:amd64 1:1.2.1-1
+2025-03-28 11:52:58 install libxi6:amd64 <none> 2:1.8-1+b1
+2025-03-28 11:52:58 status half-installed libxi6:amd64 2:1.8-1+b1
+2025-03-28 11:52:58 status unpacked libxi6:amd64 2:1.8-1+b1
+2025-03-28 11:52:58 install libxrandr2:amd64 <none> 2:1.5.2-2+b1
+2025-03-28 11:52:58 status half-installed libxrandr2:amd64 2:1.5.2-2+b1
+2025-03-28 11:52:58 status unpacked libxrandr2:amd64 2:1.5.2-2+b1
+2025-03-28 11:52:58 install freerdp2-x11:amd64 <none> 2.10.0+dfsg1-1
+2025-03-28 11:52:58 status half-installed freerdp2-x11:amd64 2.10.0+dfsg1-1
+2025-03-28 11:52:59 status triggers-pending man-db:amd64 2.11.2-2
+2025-03-28 11:53:00 status unpacked freerdp2-x11:amd64 2.10.0+dfsg1-1
+2025-03-28 11:53:00 startup packages configure
+2025-03-28 11:53:00 configure libxi6:amd64 2:1.8-1+b1 <none>
+2025-03-28 11:53:00 status unpacked libxi6:amd64 2:1.8-1+b1
+2025-03-28 11:53:00 status half-configured libxi6:amd64 2:1.8-1+b1
+2025-03-28 11:53:00 status installed libxi6:amd64 2:1.8-1+b1
+2025-03-28 11:53:00 configure libxcursor1:amd64 1:1.2.1-1 <none>
+2025-03-28 11:53:00 status unpacked libxcursor1:amd64 1:1.2.1-1
+2025-03-28 11:53:00 status half-configured libxcursor1:amd64 1:1.2.1-1
+2025-03-28 11:53:00 status installed libxcursor1:amd64 1:1.2.1-1
+2025-03-28 11:53:00 configure libxrandr2:amd64 2:1.5.2-2+b1 <none>
+2025-03-28 11:53:00 status unpacked libxrandr2:amd64 2:1.5.2-2+b1
+2025-03-28 11:53:00 status half-configured libxrandr2:amd64 2:1.5.2-2+b1
+2025-03-28 11:53:00 status installed libxrandr2:amd64 2:1.5.2-2+b1
+2025-03-28 11:53:00 configure freerdp2-x11:amd64 2.10.0+dfsg1-1 <none>
+2025-03-28 11:53:00 status unpacked freerdp2-x11:amd64 2.10.0+dfsg1-1
+2025-03-28 11:53:00 status half-configured freerdp2-x11:amd64 2.10.0+dfsg1-1
+2025-03-28 11:53:00 status installed freerdp2-x11:amd64 2.10.0+dfsg1-1
+2025-03-28 11:53:00 trigproc man-db:amd64 2.11.2-2 <none>
+2025-03-28 11:53:00 status half-configured man-db:amd64 2.11.2-2
+2025-03-28 11:53:07 status installed man-db:amd64 2.11.2-2
+2025-03-28 11:53:07 trigproc libc-bin:amd64 2.36-9+deb12u10 <none>
+2025-03-28 11:53:07 status half-configured libc-bin:amd64 2.36-9+deb12u10
+2025-03-28 11:53:08 status installed libc-bin:amd64 2.36-9+deb12u10
+2025-03-28 14:20:40 startup archives unpack
+2025-03-28 14:20:42 install liberror-perl:all <none> 0.17029-2
+2025-03-28 14:20:42 status half-installed liberror-perl:all 0.17029-2
+2025-03-28 14:20:43 status triggers-pending man-db:amd64 2.11.2-2
+2025-03-28 14:20:43 status unpacked liberror-perl:all 0.17029-2
+2025-03-28 14:20:43 install git-man:all <none> 1:2.39.5-0+deb12u2
+2025-03-28 14:20:43 status half-installed git-man:all 1:2.39.5-0+deb12u2
+2025-03-28 14:20:46 status unpacked git-man:all 1:2.39.5-0+deb12u2
+2025-03-28 14:20:46 install git:amd64 <none> 1:2.39.5-0+deb12u2
+2025-03-28 14:20:46 status half-installed git:amd64 1:2.39.5-0+deb12u2
+2025-03-28 14:21:16 status unpacked git:amd64 1:2.39.5-0+deb12u2
+2025-03-28 14:21:16 startup packages configure
+2025-03-28 14:21:16 configure liberror-perl:all 0.17029-2 <none>
+2025-03-28 14:21:16 status unpacked liberror-perl:all 0.17029-2
+2025-03-28 14:21:16 status half-configured liberror-perl:all 0.17029-2
+2025-03-28 14:21:16 status installed liberror-perl:all 0.17029-2
+2025-03-28 14:21:16 configure git-man:all 1:2.39.5-0+deb12u2 <none>
+2025-03-28 14:21:16 status unpacked git-man:all 1:2.39.5-0+deb12u2
+2025-03-28 14:21:16 status half-configured git-man:all 1:2.39.5-0+deb12u2
+2025-03-28 14:21:16 status installed git-man:all 1:2.39.5-0+deb12u2
+2025-03-28 14:21:16 configure git:amd64 1:2.39.5-0+deb12u2 <none>
+2025-03-28 14:21:16 status unpacked git:amd64 1:2.39.5-0+deb12u2
+2025-03-28 14:21:16 status half-configured git:amd64 1:2.39.5-0+deb12u2
+2025-03-28 14:21:17 status installed git:amd64 1:2.39.5-0+deb12u2
+2025-03-28 14:21:17 trigproc man-db:amd64 2.11.2-2 <none>
+2025-03-28 14:21:17 status half-configured man-db:amd64 2.11.2-2
+2025-03-28 14:21:22 status installed man-db:amd64 2.11.2-2
+
+==> /var/log/fontconfig.log <==
+Font directories:
+	/usr/share/fonts
+	/usr/local/share/fonts
+	/usr/share/fonts/truetype
+	/usr/share/fonts/truetype/dejavu
+/usr/share/fonts: caching, new cache contents: 0 fonts, 1 dirs
+/usr/share/fonts/truetype: caching, new cache contents: 0 fonts, 1 dirs
+/usr/share/fonts/truetype/dejavu: caching, new cache contents: 6 fonts, 0 dirs
+/usr/local/share/fonts: caching, new cache contents: 0 fonts, 0 dirs
+/usr/share/fonts/truetype: skipping, looped directory detected
+/usr/share/fonts/truetype/dejavu: skipping, looped directory detected
+/var/cache/fontconfig: cleaning cache directory
+fc-cache: succeeded
+
+==> /var/log/localhost.2025-03-28.log <==
+
+==> /var/log/mail.log <==
+2025-03-28T09:41:59.384965+00:00 guacamole postfix[211]: Postfix is using backwards-compatible default settings
+2025-03-28T09:41:59.385138+00:00 guacamole postfix[211]: See http://www.postfix.org/COMPATIBILITY_README.html for details
+2025-03-28T09:41:59.385200+00:00 guacamole postfix[211]: To disable backwards compatibility use "postconf compatibility_level=3.6" and "postfix reload"
+2025-03-28T09:41:59.705416+00:00 guacamole postfix/postfix-script[303]: starting the Postfix mail system
+2025-03-28T09:41:59.711091+00:00 guacamole postfix/master[305]: daemon started -- version 3.7.11, configuration /etc/postfix
+2025-03-28T09:44:29.196602+00:00 guacamole postfix[203]: Postfix is using backwards-compatible default settings
+2025-03-28T09:44:29.196793+00:00 guacamole postfix[203]: See http://www.postfix.org/COMPATIBILITY_README.html for details
+2025-03-28T09:44:29.196853+00:00 guacamole postfix[203]: To disable backwards compatibility use "postconf compatibility_level=3.6" and "postfix reload"
+2025-03-28T09:44:29.533469+00:00 guacamole postfix/postfix-script[295]: starting the Postfix mail system
+2025-03-28T09:44:29.539043+00:00 guacamole postfix/master[297]: daemon started -- version 3.7.11, configuration /etc/postfix
+2025-03-28T09:46:06.685464+00:00 guacamole postfix[335]: Postfix is using backwards-compatible default settings
+2025-03-28T09:46:06.686111+00:00 guacamole postfix[335]: See http://www.postfix.org/COMPATIBILITY_README.html for details
+2025-03-28T09:46:06.686190+00:00 guacamole postfix[335]: To disable backwards compatibility use "postconf compatibility_level=3.6" and "postfix reload"
+2025-03-28T09:46:06.721329+00:00 guacamole postfix/postfix-script[354]: refreshing the Postfix mail system
+2025-03-28T09:46:06.729352+00:00 guacamole postfix/master[297]: reload -- version 3.7.11, configuration /etc/postfix
+2025-03-28T09:46:06.763215+00:00 guacamole postfix[365]: Postfix is using backwards-compatible default settings
+2025-03-28T09:46:06.763284+00:00 guacamole postfix[365]: See http://www.postfix.org/COMPATIBILITY_README.html for details
+2025-03-28T09:46:06.763311+00:00 guacamole postfix[365]: To disable backwards compatibility use "postconf compatibility_level=3.6" and "postfix reload"
+2025-03-28T09:46:06.790907+00:00 guacamole postfix/postfix-script[385]: refreshing the Postfix mail system
+2025-03-28T09:46:06.796073+00:00 guacamole postfix/master[297]: reload -- version 3.7.11, configuration /etc/postfix
+2025-03-28T09:46:06.901789+00:00 guacamole postfix[433]: Postfix is using backwards-compatible default settings
+2025-03-28T09:46:06.901906+00:00 guacamole postfix[433]: See http://www.postfix.org/COMPATIBILITY_README.html for details
+2025-03-28T09:46:06.901935+00:00 guacamole postfix[433]: To disable backwards compatibility use "postconf compatibility_level=3.6" and "postfix reload"
+2025-03-28T09:46:06.936507+00:00 guacamole postfix/postfix-script[450]: refreshing the Postfix mail system
+2025-03-28T09:46:06.943970+00:00 guacamole postfix/master[297]: reload -- version 3.7.11, configuration /etc/postfix
+2025-03-28T09:46:06.991886+00:00 guacamole postfix[470]: Postfix is using backwards-compatible default settings
+2025-03-28T09:46:06.992866+00:00 guacamole postfix[470]: See http://www.postfix.org/COMPATIBILITY_README.html for details
+2025-03-28T09:46:06.992949+00:00 guacamole postfix[470]: To disable backwards compatibility use "postconf compatibility_level=3.6" and "postfix reload"
+2025-03-28T09:46:07.031251+00:00 guacamole postfix/postfix-script[491]: refreshing the Postfix mail system
+2025-03-28T09:46:07.038435+00:00 guacamole postfix/master[297]: reload -- version 3.7.11, configuration /etc/postfix
+2025-03-28T09:46:07.069853+00:00 guacamole postfix[500]: Postfix is using backwards-compatible default settings
+2025-03-28T09:46:07.071460+00:00 guacamole postfix[500]: See http://www.postfix.org/COMPATIBILITY_README.html for details
+2025-03-28T09:46:07.072278+00:00 guacamole postfix[500]: To disable backwards compatibility use "postconf compatibility_level=3.6" and "postfix reload"
+2025-03-28T09:46:07.091133+00:00 guacamole postfix/postfix-script[507]: refreshing the Postfix mail system
+2025-03-28T09:46:07.096975+00:00 guacamole postfix/master[297]: reload -- version 3.7.11, configuration /etc/postfix
+
+==> /var/log/user.log <==
+2025-03-28T09:44:28.977853+00:00 guacamole rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Permission denied.
+2025-03-28T10:21:35.439963+00:00 guacamole rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Permission denied.
+2025-03-28T10:21:46.904067+00:00 guacamole rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Permission denied.

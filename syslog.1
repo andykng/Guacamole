@@ -1,0 +1,478 @@
+2024-09-09T12:19:18.032772+00:00 template-ct systemd[1]: Listening on syslog.socket - Syslog Socket.
+2024-09-09T12:19:18.032975+00:00 template-ct systemd[1]: Starting rsyslog.service - System Logging Service...
+2024-09-09T12:19:18.032673+00:00 template-ct rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2302.0]
+2024-09-09T12:19:18.032828+00:00 template-ct rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Permission denied.
+2024-09-09T12:19:18.032882+00:00 template-ct rsyslogd: activation of module imklog failed [v8.2302.0 try https://www.rsyslog.com/e/2145 ]
+2024-09-09T12:19:18.032922+00:00 template-ct rsyslogd: [origin software="rsyslogd" swVersion="8.2302.0" x-pid="1590" x-info="https://www.rsyslog.com"] start
+2024-09-09T12:19:18.033063+00:00 template-ct systemd[1]: Started rsyslog.service - System Logging Service.
+2024-09-09T12:20:09.106278+00:00 template-ct systemd[1]: container-getty@1.service: Deactivated successfully.
+2024-09-09T12:20:09.114389+00:00 template-ct systemd[1]: container-getty@1.service: Consumed 8.166s CPU time.
+2024-09-09T12:20:09.115320+00:00 template-ct systemd[1]: container-getty@1.service: Scheduled restart job, restart counter is at 1.
+2024-09-09T12:20:09.117183+00:00 template-ct systemd[1]: Stopped container-getty@1.service - Container Getty on /dev/tty1.
+2024-09-09T12:20:09.117299+00:00 template-ct systemd[1]: container-getty@1.service: Consumed 8.166s CPU time.
+2024-09-09T12:20:09.128547+00:00 template-ct systemd[1]: Started container-getty@1.service - Container Getty on /dev/tty1.
+2024-09-09T12:20:12.050002+00:00 template-ct systemd[1]: container-getty@1.service: Deactivated successfully.
+2024-09-09T12:20:12.051287+00:00 template-ct systemd[1]: container-getty@1.service: Scheduled restart job, restart counter is at 2.
+2024-09-09T12:20:12.051327+00:00 template-ct systemd[1]: Stopped container-getty@1.service - Container Getty on /dev/tty1.
+2024-09-09T12:20:12.058965+00:00 template-ct systemd[1]: Started container-getty@1.service - Container Getty on /dev/tty1.
+2024-09-09T12:29:19.735910+00:00 template-ct systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+2024-09-09T12:29:20.066905+00:00 template-ct systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+2024-09-09T12:29:20.067326+00:00 template-ct systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+2024-09-09T12:29:20.068415+00:00 template-ct systemd[1]: run-credentials-systemd\x2dtmpfiles\x2dclean.service.mount: Deactivated successfully.
+2024-09-09T12:30:54.244722+00:00 template-ct systemd[1]: Created slice user-0.slice - User Slice of UID 0.
+2024-09-09T12:30:54.244801+00:00 template-ct systemd[1]: Starting user-runtime-dir@0.service - User Runtime Directory /run/user/0...
+2024-09-09T12:30:54.260109+00:00 template-ct systemd[1]: Finished user-runtime-dir@0.service - User Runtime Directory /run/user/0.
+2024-09-09T12:30:54.270369+00:00 template-ct systemd[1]: Starting user@0.service - User Manager for UID 0...
+2024-09-09T12:30:54.347408+00:00 template-ct systemd[1618]: Queued start job for default target default.target.
+2024-09-09T12:30:54.369996+00:00 template-ct systemd[1618]: Reached target paths.target - Paths.
+2024-09-09T12:30:54.370055+00:00 template-ct systemd[1618]: Reached target sockets.target - Sockets.
+2024-09-09T12:30:54.370098+00:00 template-ct systemd[1618]: Reached target timers.target - Timers.
+2024-09-09T12:30:54.370140+00:00 template-ct systemd[1618]: Reached target basic.target - Basic System.
+2024-09-09T12:30:54.370184+00:00 template-ct systemd[1]: Started user@0.service - User Manager for UID 0.
+2024-09-09T12:30:54.370220+00:00 template-ct systemd[1]: Started session-159.scope - Session 159 of User root.
+2024-09-09T12:30:54.370265+00:00 template-ct systemd[1618]: Reached target default.target - Main User Target.
+2024-09-09T12:30:54.370303+00:00 template-ct systemd[1618]: Startup finished in 70ms.
+2024-09-09T12:31:12.504839+00:00 template-ct systemd[1]: session-159.scope: Deactivated successfully.
+2024-09-09T12:31:22.725832+00:00 template-ct systemd[1]: Stopping user@0.service - User Manager for UID 0...
+2024-09-09T12:31:22.727266+00:00 template-ct systemd[1618]: Activating special unit exit.target...
+2024-09-09T12:31:22.728023+00:00 template-ct systemd[1618]: Stopped target default.target - Main User Target.
+2024-09-09T12:31:22.728084+00:00 template-ct systemd[1618]: Stopped target basic.target - Basic System.
+2024-09-09T12:31:22.728120+00:00 template-ct systemd[1618]: Stopped target paths.target - Paths.
+2024-09-09T12:31:22.728158+00:00 template-ct systemd[1618]: Stopped target sockets.target - Sockets.
+2024-09-09T12:31:22.728195+00:00 template-ct systemd[1618]: Reached target shutdown.target - Shutdown.
+2024-09-09T12:31:22.728243+00:00 template-ct systemd[1618]: Stopped target timers.target - Timers.
+2024-09-09T12:31:22.728279+00:00 template-ct systemd[1618]: Finished systemd-exit.service - Exit the Session.
+2024-09-09T12:31:22.728320+00:00 template-ct systemd[1618]: Reached target exit.target - Exit the Session.
+2024-09-09T12:31:22.730573+00:00 template-ct systemd[1]: user@0.service: Deactivated successfully.
+2024-09-09T12:31:22.730628+00:00 template-ct systemd[1]: Stopped user@0.service - User Manager for UID 0.
+2024-09-09T12:31:22.766502+00:00 template-ct systemd[1]: Stopping user-runtime-dir@0.service - User Runtime Directory /run/user/0...
+2024-09-09T12:31:22.768755+00:00 template-ct systemd[1]: run-user-0.mount: Deactivated successfully.
+2024-09-09T12:31:22.769964+00:00 template-ct systemd[1]: user-runtime-dir@0.service: Deactivated successfully.
+2024-09-09T12:31:22.770200+00:00 template-ct systemd[1]: Stopped user-runtime-dir@0.service - User Runtime Directory /run/user/0.
+2024-09-09T12:31:22.771508+00:00 template-ct systemd[1]: Removed slice user-0.slice - User Slice of UID 0.
+2024-09-09T12:45:01.155163+00:00 template-ct CRON[1634]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2024-09-09T12:53:20.331214+00:00 template-ct systemd[1]: Created slice user-0.slice - User Slice of UID 0.
+2024-09-09T12:53:20.332975+00:00 template-ct systemd[1]: Starting user-runtime-dir@0.service - User Runtime Directory /run/user/0...
+2024-09-09T12:53:20.339321+00:00 template-ct systemd[1]: Finished user-runtime-dir@0.service - User Runtime Directory /run/user/0.
+2024-09-09T12:53:20.340845+00:00 template-ct systemd[1]: Starting user@0.service - User Manager for UID 0...
+2024-09-09T12:53:20.364804+00:00 template-ct systemd[1653]: Queued start job for default target default.target.
+2024-09-09T12:53:20.365656+00:00 template-ct systemd[1653]: Reached target paths.target - Paths.
+2024-09-09T12:53:20.365870+00:00 template-ct systemd[1653]: Reached target sockets.target - Sockets.
+2024-09-09T12:53:20.365911+00:00 template-ct systemd[1653]: Reached target timers.target - Timers.
+2024-09-09T12:53:20.365947+00:00 template-ct systemd[1653]: Reached target basic.target - Basic System.
+2024-09-09T12:53:20.365984+00:00 template-ct systemd[1]: Started user@0.service - User Manager for UID 0.
+2024-09-09T12:53:20.366016+00:00 template-ct systemd[1653]: Reached target default.target - Main User Target.
+2024-09-09T12:53:20.366047+00:00 template-ct systemd[1653]: Startup finished in 17ms.
+2024-09-09T12:53:20.367515+00:00 template-ct systemd[1]: Started session-164.scope - Session 164 of User root.
+2024-09-09T12:54:22.615913+00:00 template-ct systemd[1]: Started session-166.scope - Session 166 of User root.
+2024-09-09T12:54:25.609742+00:00 template-ct systemd[1]: session-164.scope: Deactivated successfully.
+2024-09-09T13:45:01.182876+00:00 template-ct CRON[1677]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2024-09-09T14:45:01.177086+00:00 template-ct CRON[1682]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2024-09-09T15:10:50.819796+00:00 template-ct systemd[1]: session-166.scope: Deactivated successfully.
+2024-09-09T15:11:00.975864+00:00 template-ct systemd[1]: Stopping user@0.service - User Manager for UID 0...
+2024-09-09T15:11:00.977646+00:00 template-ct systemd[1653]: Activating special unit exit.target...
+2024-09-09T15:11:00.997674+00:00 template-ct systemd[1653]: Stopped target default.target - Main User Target.
+2024-09-09T15:11:00.997757+00:00 template-ct systemd[1653]: Stopped target basic.target - Basic System.
+2024-09-09T15:11:00.997813+00:00 template-ct systemd[1653]: Stopped target paths.target - Paths.
+2024-09-09T15:11:00.997866+00:00 template-ct systemd[1653]: Stopped target sockets.target - Sockets.
+2024-09-09T15:11:00.997923+00:00 template-ct systemd[1653]: Reached target shutdown.target - Shutdown.
+2024-09-09T15:11:00.997988+00:00 template-ct systemd[1653]: Stopped target timers.target - Timers.
+2024-09-09T15:11:00.998036+00:00 template-ct systemd[1653]: Finished systemd-exit.service - Exit the Session.
+2024-09-09T15:11:00.998071+00:00 template-ct systemd[1653]: Reached target exit.target - Exit the Session.
+2024-09-09T15:11:00.998105+00:00 template-ct systemd[1]: user@0.service: Deactivated successfully.
+2024-09-09T15:11:00.998138+00:00 template-ct systemd[1]: Stopped user@0.service - User Manager for UID 0.
+2024-09-09T15:11:01.019750+00:00 template-ct systemd[1]: Stopping user-runtime-dir@0.service - User Runtime Directory /run/user/0...
+2024-09-09T15:11:01.021675+00:00 template-ct systemd[1]: run-user-0.mount: Deactivated successfully.
+2024-09-09T15:11:01.022388+00:00 template-ct systemd[1]: user-runtime-dir@0.service: Deactivated successfully.
+2024-09-09T15:11:01.022650+00:00 template-ct systemd[1]: Stopped user-runtime-dir@0.service - User Runtime Directory /run/user/0.
+2024-09-09T15:11:01.023608+00:00 template-ct systemd[1]: Removed slice user-0.slice - User Slice of UID 0.
+2024-09-09T15:45:01.179804+00:00 template-ct CRON[1689]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2024-09-09T16:45:01.198965+00:00 template-ct CRON[1693]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2024-09-09T17:45:01.209500+00:00 template-ct CRON[1698]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2024-09-09T18:45:01.219960+00:00 template-ct CRON[1702]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2024-09-09T18:47:19.735419+00:00 template-ct systemd[1]: Starting apt-daily.service - Daily apt download activities...
+2024-09-09T18:47:49.904938+00:00 template-ct systemd-networkd-wait-online[1706]: Timeout occurred while waiting for network connectivity.
+2024-09-09T18:47:49.914051+00:00 template-ct apt-helper[1704]: E: Sub-process /lib/systemd/systemd-networkd-wait-online returned an error code (1)
+2024-09-09T18:47:50.276105+00:00 template-ct systemd[1]: apt-daily.service: Deactivated successfully.
+2024-09-09T18:47:50.276418+00:00 template-ct systemd[1]: Finished apt-daily.service - Daily apt download activities.
+2024-09-09T19:45:01.247831+00:00 template-ct CRON[1764]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2024-09-09T20:45:01.250013+00:00 template-ct CRON[1769]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2024-09-09T21:45:01.268784+00:00 template-ct CRON[1773]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2024-09-09T22:45:01.287710+00:00 template-ct CRON[1778]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2024-09-09T23:45:01.298358+00:00 template-ct CRON[1782]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2024-09-10T00:00:22.853128+00:00 template-ct systemd[1]: Starting dpkg-db-backup.service - Daily dpkg database backup service...
+2024-09-10T00:00:22.918548+00:00 template-ct systemd[1]: Starting logrotate.service - Rotate log files...
+2024-09-10T00:00:22.938138+00:00 template-ct systemd[1]: dpkg-db-backup.service: Deactivated successfully.
+2024-09-10T00:00:22.938198+00:00 template-ct systemd[1]: Finished dpkg-db-backup.service - Daily dpkg database backup service.
+2024-09-10T00:00:23.085971+00:00 template-ct systemd[1]: logrotate.service: Deactivated successfully.
+2024-09-10T00:00:23.086190+00:00 template-ct systemd[1]: Finished logrotate.service - Rotate log files.
+2024-09-10T00:45:01.293906+00:00 template-ct CRON[1844]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2024-09-10T01:45:01.313006+00:00 template-ct CRON[1849]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2024-09-10T02:45:01.340607+00:00 template-ct CRON[1853]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2024-09-10T03:45:01.351492+00:00 template-ct CRON[1858]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2024-09-10T03:55:01.366114+00:00 template-ct CRON[1862]: (root) CMD (test -e /run/systemd/system || SERVICE_MODE=1 /sbin/e2scrub_all -A -r)
+2024-09-10T04:45:01.373528+00:00 template-ct CRON[1865]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2024-09-10T05:45:01.392806+00:00 template-ct CRON[1870]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2024-09-10T06:29:19.737816+00:00 template-ct systemd[1]: Starting apt-daily-upgrade.service - Daily apt upgrade and clean activities...
+2024-09-10T06:29:49.905064+00:00 template-ct systemd-networkd-wait-online[1875]: Timeout occurred while waiting for network connectivity.
+2024-09-10T06:29:49.913985+00:00 template-ct apt-helper[1873]: E: Sub-process /lib/systemd/systemd-networkd-wait-online returned an error code (1)
+2024-09-10T06:29:50.119914+00:00 template-ct systemd[1]: apt-daily-upgrade.service: Deactivated successfully.
+2024-09-10T06:29:50.120213+00:00 template-ct systemd[1]: Finished apt-daily-upgrade.service - Daily apt upgrade and clean activities.
+2024-09-10T06:30:42.421791+00:00 template-ct systemd[1]: Starting apt-daily.service - Daily apt download activities...
+2024-09-10T06:31:12.655076+00:00 template-ct systemd-networkd-wait-online[1922]: Timeout occurred while waiting for network connectivity.
+2024-09-10T06:31:12.663994+00:00 template-ct apt-helper[1920]: E: Sub-process /lib/systemd/systemd-networkd-wait-online returned an error code (1)
+2024-09-10T06:31:12.873299+00:00 template-ct systemd[1]: apt-daily.service: Deactivated successfully.
+2024-09-10T06:31:12.873607+00:00 template-ct systemd[1]: Finished apt-daily.service - Daily apt download activities.
+2024-09-10T06:42:01.408293+00:00 template-ct CRON[1970]: (root) CMD (test -x /usr/sbin/anacron || { cd / && run-parts --report /etc/cron.daily; })
+2024-09-10T06:45:01.407594+00:00 template-ct CRON[1977]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2024-09-10T06:48:42.416136+00:00 template-ct systemd[1]: Starting man-db.service - Daily man-db regeneration...
+2024-09-10T06:48:43.355598+00:00 template-ct systemd[1]: man-db.service: Deactivated successfully.
+2024-09-10T06:48:43.355886+00:00 template-ct systemd[1]: Finished man-db.service - Daily man-db regeneration.
+2024-09-10T07:45:01.464912+00:00 template-ct CRON[1987]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2024-09-10T08:45:01.467036+00:00 template-ct CRON[1992]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2024-09-10T09:45:01.485654+00:00 template-ct CRON[1996]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2024-09-10T10:45:01.496275+00:00 template-ct CRON[2001]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2024-09-10T11:38:08.124490+00:00 template-ct systemd[1]: Created slice user-0.slice - User Slice of UID 0.
+2024-09-10T11:38:08.124737+00:00 template-ct systemd[1]: Starting user-runtime-dir@0.service - User Runtime Directory /run/user/0...
+2024-09-10T11:38:08.124843+00:00 template-ct systemd[1]: Finished user-runtime-dir@0.service - User Runtime Directory /run/user/0.
+2024-09-10T11:38:08.124901+00:00 template-ct systemd[1]: Starting user@0.service - User Manager for UID 0...
+2024-09-10T11:38:08.124960+00:00 template-ct systemd[2008]: Queued start job for default target default.target.
+2024-09-10T11:38:08.125006+00:00 template-ct systemd[2008]: Reached target paths.target - Paths.
+2024-09-10T11:38:08.125044+00:00 template-ct systemd[2008]: Reached target sockets.target - Sockets.
+2024-09-10T11:38:08.125079+00:00 template-ct systemd[2008]: Reached target timers.target - Timers.
+2024-09-10T11:38:08.125110+00:00 template-ct systemd[2008]: Reached target basic.target - Basic System.
+2024-09-10T11:38:08.125148+00:00 template-ct systemd[1]: Started user@0.service - User Manager for UID 0.
+2024-09-10T11:38:08.125177+00:00 template-ct systemd[1]: Started session-226.scope - Session 226 of User root.
+2024-09-10T11:38:08.125214+00:00 template-ct systemd[2008]: Reached target default.target - Main User Target.
+2024-09-10T11:38:08.125246+00:00 template-ct systemd[2008]: Startup finished in 27ms.
+2024-09-10T11:38:09.178542+00:00 template-ct systemd[1]: session-226.scope: Deactivated successfully.
+2024-09-10T11:38:19.225840+00:00 template-ct systemd[1]: Stopping user@0.service - User Manager for UID 0...
+2024-09-10T11:38:19.227599+00:00 template-ct systemd[2008]: Activating special unit exit.target...
+2024-09-10T11:38:19.235668+00:00 template-ct systemd[2008]: Stopped target default.target - Main User Target.
+2024-09-10T11:38:19.235765+00:00 template-ct systemd[2008]: Stopped target basic.target - Basic System.
+2024-09-10T11:38:19.235831+00:00 template-ct systemd[2008]: Stopped target paths.target - Paths.
+2024-09-10T11:38:19.235890+00:00 template-ct systemd[2008]: Stopped target sockets.target - Sockets.
+2024-09-10T11:38:19.235949+00:00 template-ct systemd[2008]: Reached target shutdown.target - Shutdown.
+2024-09-10T11:38:19.236012+00:00 template-ct systemd[2008]: Stopped target timers.target - Timers.
+2024-09-10T11:38:19.236069+00:00 template-ct systemd[2008]: Finished systemd-exit.service - Exit the Session.
+2024-09-10T11:38:19.236129+00:00 template-ct systemd[2008]: Reached target exit.target - Exit the Session.
+2024-09-10T11:38:19.236187+00:00 template-ct systemd[1]: user@0.service: Deactivated successfully.
+2024-09-10T11:38:19.236245+00:00 template-ct systemd[1]: Stopped user@0.service - User Manager for UID 0.
+2024-09-10T11:38:19.262017+00:00 template-ct systemd[1]: Stopping user-runtime-dir@0.service - User Runtime Directory /run/user/0...
+2024-09-10T11:38:19.266039+00:00 template-ct systemd[1]: run-user-0.mount: Deactivated successfully.
+2024-09-10T11:38:19.267062+00:00 template-ct systemd[1]: user-runtime-dir@0.service: Deactivated successfully.
+2024-09-10T11:38:19.267295+00:00 template-ct systemd[1]: Stopped user-runtime-dir@0.service - User Runtime Directory /run/user/0.
+2024-09-10T11:38:19.268068+00:00 template-ct systemd[1]: Removed slice user-0.slice - User Slice of UID 0.
+2024-09-10T11:42:58.983959+00:00 template-ct systemd[1]: Created slice user-0.slice - User Slice of UID 0.
+2024-09-10T11:42:58.984040+00:00 template-ct systemd[1]: Starting user-runtime-dir@0.service - User Runtime Directory /run/user/0...
+2024-09-10T11:42:58.990351+00:00 template-ct systemd[1]: Finished user-runtime-dir@0.service - User Runtime Directory /run/user/0.
+2024-09-10T11:42:58.992111+00:00 template-ct systemd[1]: Starting user@0.service - User Manager for UID 0...
+2024-09-10T11:42:59.015857+00:00 template-ct systemd[2025]: Queued start job for default target default.target.
+2024-09-10T11:42:59.016545+00:00 template-ct systemd[2025]: Reached target paths.target - Paths.
+2024-09-10T11:42:59.016652+00:00 template-ct systemd[2025]: Reached target sockets.target - Sockets.
+2024-09-10T11:42:59.016751+00:00 template-ct systemd[2025]: Reached target timers.target - Timers.
+2024-09-10T11:42:59.016829+00:00 template-ct systemd[2025]: Reached target basic.target - Basic System.
+2024-09-10T11:42:59.017596+00:00 template-ct systemd[1]: Started user@0.service - User Manager for UID 0.
+2024-09-10T11:42:59.017639+00:00 template-ct systemd[2025]: Reached target default.target - Main User Target.
+2024-09-10T11:42:59.017676+00:00 template-ct systemd[2025]: Startup finished in 18ms.
+2024-09-10T11:42:59.018064+00:00 template-ct systemd[1]: Started session-228.scope - Session 228 of User root.
+2024-09-10T11:45:01.499222+00:00 template-ct CRON[2049]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2024-09-10T12:01:07.441220+00:00 template-ct systemd[1]: session-228.scope: Deactivated successfully.
+2024-09-10T12:01:17.475770+00:00 template-ct systemd[1]: Stopping user@0.service - User Manager for UID 0...
+2024-09-10T12:01:17.477539+00:00 template-ct systemd[2025]: Activating special unit exit.target...
+2024-09-10T12:01:17.478044+00:00 template-ct systemd[2025]: Stopped target default.target - Main User Target.
+2024-09-10T12:01:17.478845+00:00 template-ct systemd[2025]: Stopped target basic.target - Basic System.
+2024-09-10T12:01:17.478954+00:00 template-ct systemd[2025]: Stopped target paths.target - Paths.
+2024-09-10T12:01:17.479017+00:00 template-ct systemd[2025]: Stopped target sockets.target - Sockets.
+2024-09-10T12:01:17.479074+00:00 template-ct systemd[2025]: Reached target shutdown.target - Shutdown.
+2024-09-10T12:01:17.479534+00:00 template-ct systemd[2025]: Stopped target timers.target - Timers.
+2024-09-10T12:01:17.479571+00:00 template-ct systemd[2025]: Finished systemd-exit.service - Exit the Session.
+2024-09-10T12:01:17.479605+00:00 template-ct systemd[2025]: Reached target exit.target - Exit the Session.
+2024-09-10T12:01:17.480614+00:00 template-ct systemd[1]: user@0.service: Deactivated successfully.
+2024-09-10T12:01:17.480988+00:00 template-ct systemd[1]: Stopped user@0.service - User Manager for UID 0.
+2024-09-10T12:01:17.513038+00:00 template-ct systemd[1]: Stopping user-runtime-dir@0.service - User Runtime Directory /run/user/0...
+2024-09-10T12:01:17.551326+00:00 template-ct systemd[1]: run-user-0.mount: Deactivated successfully.
+2024-09-10T12:01:17.552680+00:00 template-ct systemd[1]: user-runtime-dir@0.service: Deactivated successfully.
+2024-09-10T12:01:17.552726+00:00 template-ct systemd[1]: Stopped user-runtime-dir@0.service - User Runtime Directory /run/user/0.
+2024-09-10T12:01:17.553944+00:00 template-ct systemd[1]: Removed slice user-0.slice - User Slice of UID 0.
+2024-09-10T12:03:12.720702+00:00 template-ct systemd[1]: Created slice user-0.slice - User Slice of UID 0.
+2024-09-10T12:03:12.720950+00:00 template-ct systemd[1]: Starting user-runtime-dir@0.service - User Runtime Directory /run/user/0...
+2024-09-10T12:03:12.727146+00:00 template-ct systemd[1]: Finished user-runtime-dir@0.service - User Runtime Directory /run/user/0.
+2024-09-10T12:03:12.728605+00:00 template-ct systemd[1]: Starting user@0.service - User Manager for UID 0...
+2024-09-10T12:03:12.752680+00:00 template-ct systemd[2056]: Queued start job for default target default.target.
+2024-09-10T12:03:12.753360+00:00 template-ct systemd[2056]: Reached target paths.target - Paths.
+2024-09-10T12:03:12.754299+00:00 template-ct systemd[2056]: Reached target sockets.target - Sockets.
+2024-09-10T12:03:12.754557+00:00 template-ct systemd[2056]: Reached target timers.target - Timers.
+2024-09-10T12:03:12.754632+00:00 template-ct systemd[2056]: Reached target basic.target - Basic System.
+2024-09-10T12:03:12.754671+00:00 template-ct systemd[1]: Started user@0.service - User Manager for UID 0.
+2024-09-10T12:03:12.754703+00:00 template-ct systemd[1]: Started session-237.scope - Session 237 of User root.
+2024-09-10T12:03:12.754740+00:00 template-ct systemd[2056]: Reached target default.target - Main User Target.
+2024-09-10T12:03:12.754775+00:00 template-ct systemd[2056]: Startup finished in 18ms.
+2024-09-10T12:03:27.632535+00:00 template-ct systemd[1]: session-237.scope: Deactivated successfully.
+2024-09-10T12:03:37.725802+00:00 template-ct systemd[1]: Stopping user@0.service - User Manager for UID 0...
+2024-09-10T12:03:37.727541+00:00 template-ct systemd[2056]: Activating special unit exit.target...
+2024-09-10T12:03:37.727619+00:00 template-ct systemd[2056]: Stopped target default.target - Main User Target.
+2024-09-10T12:03:37.727939+00:00 template-ct systemd[2056]: Stopped target basic.target - Basic System.
+2024-09-10T12:03:37.727978+00:00 template-ct systemd[2056]: Stopped target paths.target - Paths.
+2024-09-10T12:03:37.728013+00:00 template-ct systemd[2056]: Stopped target sockets.target - Sockets.
+2024-09-10T12:03:37.728040+00:00 template-ct systemd[2056]: Reached target shutdown.target - Shutdown.
+2024-09-10T12:03:37.728072+00:00 template-ct systemd[2056]: Stopped target timers.target - Timers.
+2024-09-10T12:03:37.728104+00:00 template-ct systemd[2056]: Finished systemd-exit.service - Exit the Session.
+2024-09-10T12:03:37.728135+00:00 template-ct systemd[2056]: Reached target exit.target - Exit the Session.
+2024-09-10T12:03:37.730778+00:00 template-ct systemd[1]: user@0.service: Deactivated successfully.
+2024-09-10T12:03:37.730862+00:00 template-ct systemd[1]: Stopped user@0.service - User Manager for UID 0.
+2024-09-10T12:03:37.769045+00:00 template-ct systemd[1]: Stopping user-runtime-dir@0.service - User Runtime Directory /run/user/0...
+2024-09-10T12:03:37.773066+00:00 template-ct systemd[1]: run-user-0.mount: Deactivated successfully.
+2024-09-10T12:03:37.774076+00:00 template-ct systemd[1]: user-runtime-dir@0.service: Deactivated successfully.
+2024-09-10T12:03:37.774308+00:00 template-ct systemd[1]: Stopped user-runtime-dir@0.service - User Runtime Directory /run/user/0.
+2024-09-10T12:03:37.775212+00:00 template-ct systemd[1]: Removed slice user-0.slice - User Slice of UID 0.
+2024-09-10T12:29:22.417252+00:00 template-ct systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+2024-09-10T12:29:22.487775+00:00 template-ct systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+2024-09-10T12:29:22.487888+00:00 template-ct systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+2024-09-10T12:29:22.487962+00:00 template-ct systemd[1]: run-credentials-systemd\x2dtmpfiles\x2dclean.service.mount: Deactivated successfully.
+2024-09-10T12:45:01.537817+00:00 template-ct CRON[2075]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2024-09-10T12:45:51.563650+00:00 template-ct systemd[1]: Created slice user-0.slice - User Slice of UID 0.
+2024-09-10T12:45:51.564019+00:00 template-ct systemd[1]: Starting user-runtime-dir@0.service - User Runtime Directory /run/user/0...
+2024-09-10T12:45:51.570291+00:00 template-ct systemd[1]: Finished user-runtime-dir@0.service - User Runtime Directory /run/user/0.
+2024-09-10T12:45:51.571767+00:00 template-ct systemd[1]: Starting user@0.service - User Manager for UID 0...
+2024-09-10T12:45:51.595585+00:00 template-ct systemd[2080]: Queued start job for default target default.target.
+2024-09-10T12:45:51.596254+00:00 template-ct systemd[2080]: Reached target paths.target - Paths.
+2024-09-10T12:45:51.596361+00:00 template-ct systemd[2080]: Reached target sockets.target - Sockets.
+2024-09-10T12:45:51.597208+00:00 template-ct systemd[2080]: Reached target timers.target - Timers.
+2024-09-10T12:45:51.597773+00:00 template-ct systemd[2080]: Reached target basic.target - Basic System.
+2024-09-10T12:45:51.597996+00:00 template-ct systemd[1]: Started user@0.service - User Manager for UID 0.
+2024-09-10T12:45:51.598033+00:00 template-ct systemd[1]: Started session-248.scope - Session 248 of User root.
+2024-09-10T12:45:51.598073+00:00 template-ct systemd[2080]: Reached target default.target - Main User Target.
+2024-09-10T12:45:51.598108+00:00 template-ct systemd[2080]: Startup finished in 18ms.
+2024-09-10T12:45:55.656140+00:00 template-ct systemd[1]: session-248.scope: Deactivated successfully.
+2024-09-10T12:46:05.726003+00:00 template-ct systemd[1]: Stopping user@0.service - User Manager for UID 0...
+2024-09-10T12:46:05.726950+00:00 template-ct systemd[2080]: Activating special unit exit.target...
+2024-09-10T12:46:05.728014+00:00 template-ct systemd[2080]: Stopped target default.target - Main User Target.
+2024-09-10T12:46:05.728112+00:00 template-ct systemd[2080]: Stopped target basic.target - Basic System.
+2024-09-10T12:46:05.728299+00:00 template-ct systemd[2080]: Stopped target paths.target - Paths.
+2024-09-10T12:46:05.728448+00:00 template-ct systemd[2080]: Stopped target sockets.target - Sockets.
+2024-09-10T12:46:05.728785+00:00 template-ct systemd[2080]: Reached target shutdown.target - Shutdown.
+2024-09-10T12:46:05.728836+00:00 template-ct systemd[2080]: Stopped target timers.target - Timers.
+2024-09-10T12:46:05.728868+00:00 template-ct systemd[2080]: Finished systemd-exit.service - Exit the Session.
+2024-09-10T12:46:05.728903+00:00 template-ct systemd[2080]: Reached target exit.target - Exit the Session.
+2024-09-10T12:46:05.731310+00:00 template-ct systemd[1]: user@0.service: Deactivated successfully.
+2024-09-10T12:46:05.731759+00:00 template-ct systemd[1]: Stopped user@0.service - User Manager for UID 0.
+2024-09-10T12:46:05.770076+00:00 template-ct systemd[1]: Stopping user-runtime-dir@0.service - User Runtime Directory /run/user/0...
+2024-09-10T12:46:05.774322+00:00 template-ct systemd[1]: run-user-0.mount: Deactivated successfully.
+2024-09-10T12:46:05.775405+00:00 template-ct systemd[1]: user-runtime-dir@0.service: Deactivated successfully.
+2024-09-10T12:46:05.775666+00:00 template-ct systemd[1]: Stopped user-runtime-dir@0.service - User Runtime Directory /run/user/0.
+2024-09-10T12:46:05.776847+00:00 template-ct systemd[1]: Removed slice user-0.slice - User Slice of UID 0.
+2024-09-10T12:51:55.365815+00:00 template-ct systemd[1]: Created slice user-0.slice - User Slice of UID 0.
+2024-09-10T12:51:55.365964+00:00 template-ct systemd[1]: Starting user-runtime-dir@0.service - User Runtime Directory /run/user/0...
+2024-09-10T12:51:55.366031+00:00 template-ct systemd[1]: Finished user-runtime-dir@0.service - User Runtime Directory /run/user/0.
+2024-09-10T12:51:55.366202+00:00 template-ct systemd[1]: Starting user@0.service - User Manager for UID 0...
+2024-09-10T12:51:55.374054+00:00 template-ct systemd[2098]: Queued start job for default target default.target.
+2024-09-10T12:51:55.374360+00:00 template-ct systemd[2098]: Reached target paths.target - Paths.
+2024-09-10T12:51:55.374547+00:00 template-ct systemd[2098]: Reached target sockets.target - Sockets.
+2024-09-10T12:51:55.375349+00:00 template-ct systemd[2098]: Reached target timers.target - Timers.
+2024-09-10T12:51:55.375399+00:00 template-ct systemd[2098]: Reached target basic.target - Basic System.
+2024-09-10T12:51:55.375458+00:00 template-ct systemd[1]: Started user@0.service - User Manager for UID 0.
+2024-09-10T12:51:55.375502+00:00 template-ct systemd[2098]: Reached target default.target - Main User Target.
+2024-09-10T12:51:55.375541+00:00 template-ct systemd[2098]: Startup finished in 19ms.
+2024-09-10T12:51:55.375817+00:00 template-ct systemd[1]: Started session-251.scope - Session 251 of User root.
+2024-09-10T12:52:22.188952+00:00 template-ct systemd[1]: Started session-253.scope - Session 253 of User root.
+2024-09-10T12:52:23.052338+00:00 template-ct systemd[1]: session-253.scope: Deactivated successfully.
+2024-09-10T12:52:30.474917+00:00 template-ct systemd[1]: Reexecuting.
+2024-09-10T12:52:33.898617+00:00 template-ct systemd[1]: Reloading.
+2024-09-10T12:52:35.807603+00:00 template-ct systemd[1]: Reloading.
+2024-09-10T12:52:36.009856+00:00 template-ct systemd[1]: fstrim.timer - Discard unused blocks once a week was skipped because of an unmet condition check (ConditionVirtualization=!container).
+2024-09-10T12:52:36.015264+00:00 template-ct systemd[1]: Reloading.
+2024-09-10T12:52:41.726200+00:00 template-ct dbus-daemon[87]: [system] Reloaded configuration
+2024-09-10T12:52:41.761017+00:00 template-ct dbus-daemon[87]: [system] Reloaded configuration
+2024-09-10T12:52:41.764228+00:00 template-ct dbus-daemon[87]: [system] Reloaded configuration
+2024-09-10T12:52:41.775750+00:00 template-ct dbus-daemon[87]: [system] Reloaded configuration
+2024-09-10T12:52:41.785048+00:00 template-ct dbus-daemon[87]: [system] Reloaded configuration
+2024-09-10T12:52:41.929842+00:00 template-ct dbus-daemon[87]: [system] Reloaded configuration
+2024-09-10T12:52:44.564549+00:00 template-ct dbus-daemon[87]: [system] Reloaded configuration
+2024-09-10T12:52:44.566770+00:00 template-ct dbus-daemon[87]: [system] Reloaded configuration
+2024-09-10T12:52:44.573378+00:00 template-ct dbus-daemon[87]: [system] Reloaded configuration
+2024-09-10T12:52:44.575231+00:00 template-ct dbus-daemon[87]: [system] Reloaded configuration
+2024-09-10T12:52:44.581043+00:00 template-ct dbus-daemon[87]: [system] Reloaded configuration
+2024-09-10T12:52:44.583363+00:00 template-ct dbus-daemon[87]: [system] Reloaded configuration
+2024-09-10T12:52:44.969579+00:00 template-ct dbus-daemon[87]: [system] Reloaded configuration
+2024-09-10T12:52:45.046935+00:00 template-ct dbus-daemon[87]: [system] Reloaded configuration
+2024-09-10T12:52:45.051012+00:00 template-ct dbus-daemon[87]: [system] Reloaded configuration
+2024-09-10T12:52:45.055492+00:00 template-ct dbus-daemon[87]: [system] Reloaded configuration
+2024-09-10T12:52:45.265789+00:00 template-ct dbus-daemon[87]: [system] Reloaded configuration
+2024-09-10T12:52:45.270100+00:00 template-ct dbus-daemon[87]: [system] Reloaded configuration
+2024-09-10T12:52:47.236545+00:00 template-ct systemd[1]: Reexecuting.
+2024-09-10T12:52:47.403428+00:00 template-ct systemd[1]: Stopping systemd-networkd.service - Network Configuration...
+2024-09-10T12:52:47.404359+00:00 template-ct systemd[1]: systemd-networkd.service: Deactivated successfully.
+2024-09-10T12:52:47.404674+00:00 template-ct systemd[1]: Stopped systemd-networkd.service - Network Configuration.
+2024-09-10T12:52:47.414863+00:00 template-ct systemd[1]: Starting systemd-networkd.service - Network Configuration...
+2024-09-10T12:52:47.436584+00:00 template-ct systemd-networkd[3399]: Failed to increase receive buffer size for general netlink socket, ignoring: Operation not permitted
+2024-09-10T12:52:47.439649+00:00 template-ct systemd-networkd[3399]: eth0: Link UP
+2024-09-10T12:52:47.439738+00:00 template-ct systemd-networkd[3399]: eth0: Gained carrier
+2024-09-10T12:52:47.439848+00:00 template-ct systemd-networkd[3399]: lo: Link UP
+2024-09-10T12:52:47.443496+00:00 template-ct systemd-networkd[3399]: lo: Gained carrier
+2024-09-10T12:52:47.443545+00:00 template-ct systemd-networkd[3399]: eth0: Gained IPv6LL
+2024-09-10T12:52:47.443583+00:00 template-ct systemd-networkd[3399]: Enumeration completed
+2024-09-10T12:52:47.443610+00:00 template-ct systemd[1]: Started systemd-networkd.service - Network Configuration.
+2024-09-10T12:52:54.959774+00:00 template-ct systemd[1]: postfix-resolvconf.path: Deactivated successfully.
+2024-09-10T12:52:55.039756+00:00 template-ct systemd[1]: Stopped postfix-resolvconf.path - Watch for resolv.conf updates and restart postfix.
+2024-09-10T12:52:55.050071+00:00 template-ct postfix[3593]: Postfix is using backwards-compatible default settings
+2024-09-10T12:52:55.051391+00:00 template-ct systemd[1]: postfix.service: Deactivated successfully.
+2024-09-10T12:52:55.051590+00:00 template-ct postfix[3593]: See http://www.postfix.org/COMPATIBILITY_README.html for details
+2024-09-10T12:52:55.051742+00:00 template-ct systemd[1]: Stopped postfix.service - Postfix Mail Transport Agent.
+2024-09-10T12:52:55.059183+00:00 template-ct postfix[3593]: To disable backwards compatibility use "postconf compatibility_level=3.6" and "postfix reload"
+2024-09-10T12:52:55.059742+00:00 template-ct systemd[1]: Stopping postfix@-.service - Postfix Mail Transport Agent (instance -)...
+2024-09-10T12:52:55.059816+00:00 template-ct postfix/postfix-script[3599]: stopping the Postfix mail system
+2024-09-10T12:52:55.059886+00:00 template-ct systemd[1]: postfix@-.service: Deactivated successfully.
+2024-09-10T12:52:55.101974+00:00 template-ct postfix/master[277]: terminating on signal 15
+2024-09-10T12:52:55.102040+00:00 template-ct systemd[1]: Stopped postfix@-.service - Postfix Mail Transport Agent (instance -).
+2024-09-10T12:53:18.471584+00:00 template-ct systemd[1]: Reloading.
+2024-09-10T12:53:18.666491+00:00 template-ct systemd[1]: systemd-timesyncd.service - Network Time Synchronization was skipped because of an unmet condition check (ConditionVirtualization=!container).
+2024-09-10T12:53:19.561900+00:00 template-ct systemd[1]: Reloading.
+2024-09-10T12:53:19.790685+00:00 template-ct systemd[1]: systemd-udevd-control.socket - udev Control Socket was skipped because of an unmet condition check (ConditionPathIsReadWrite=/sys).
+2024-09-10T12:53:19.790765+00:00 template-ct systemd[1]: systemd-udevd-kernel.socket - udev Kernel Socket was skipped because of an unmet condition check (ConditionPathIsReadWrite=/sys).
+2024-09-10T12:53:19.790804+00:00 template-ct systemd[1]: systemd-udevd.service - Rule-based Manager for Device Events and Files was skipped because of an unmet condition check (ConditionPathIsReadWrite=/sys).
+2024-09-10T12:53:19.805881+00:00 template-ct systemd[1]: Reloading.
+2024-09-10T12:53:21.688284+00:00 template-ct systemd[1]: Reloading.
+2024-09-10T12:53:22.323458+00:00 template-ct systemd[1]: Reloading.
+2024-09-10T12:53:22.538789+00:00 template-ct systemd[1]: Starting postfix@-.service - Postfix Mail Transport Agent (instance -)...
+2024-09-10T12:53:22.710823+00:00 template-ct postfix[4987]: Postfix is using backwards-compatible default settings
+2024-09-10T12:53:22.710955+00:00 template-ct postfix[4987]: See http://www.postfix.org/COMPATIBILITY_README.html for details
+2024-09-10T12:53:22.711020+00:00 template-ct postfix[4987]: To disable backwards compatibility use "postconf compatibility_level=3.6" and "postfix reload"
+2024-09-10T12:53:22.907786+00:00 template-ct postfix/postfix-script[5076]: starting the Postfix mail system
+2024-09-10T12:53:22.943717+00:00 template-ct postfix/master[5078]: daemon started -- version 3.7.11, configuration /etc/postfix
+2024-09-10T12:53:22.950917+00:00 template-ct systemd[1]: Started postfix@-.service - Postfix Mail Transport Agent (instance -).
+2024-09-10T12:53:22.961369+00:00 template-ct systemd[1]: Starting postfix.service - Postfix Mail Transport Agent...
+2024-09-10T12:53:22.993856+00:00 template-ct systemd[1]: Finished postfix.service - Postfix Mail Transport Agent.
+2024-09-10T12:53:29.050595+00:00 template-ct systemd[1]: Reloading.
+2024-09-10T12:53:29.358696+00:00 template-ct systemd[1]: Reloading.
+2024-09-10T12:53:29.581900+00:00 template-ct systemd[1]: Stopping ssh.service - OpenBSD Secure Shell server...
+2024-09-10T12:53:29.582645+00:00 template-ct systemd[1]: ssh.service: Deactivated successfully.
+2024-09-10T12:53:29.582716+00:00 template-ct systemd[1]: Stopped ssh.service - OpenBSD Secure Shell server.
+2024-09-10T12:53:29.596872+00:00 template-ct systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+2024-09-10T12:53:29.616201+00:00 template-ct systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+2024-09-10T12:53:29.779498+00:00 template-ct systemd[1]: Reloading.
+2024-09-10T12:53:29.980897+00:00 template-ct systemd[1]: ssh.socket: Deactivated successfully.
+2024-09-10T12:53:29.981343+00:00 template-ct systemd[1]: Closed ssh.socket - OpenBSD Secure Shell server socket.
+2024-09-10T12:53:29.982199+00:00 template-ct systemd[1]: Stopping ssh.socket - OpenBSD Secure Shell server socket...
+2024-09-10T12:53:29.982601+00:00 template-ct systemd[1]: ssh.socket: Socket service ssh.service already active, refusing.
+2024-09-10T12:53:29.997443+00:00 template-ct systemd[1]: Failed to listen on ssh.socket - OpenBSD Secure Shell server socket.
+2024-09-10T12:53:30.564883+00:00 template-ct systemd[1]: Stopping rsyslog.service - System Logging Service...
+2024-09-10T12:53:30.670201+00:00 template-ct rsyslogd: [origin software="rsyslogd" swVersion="8.2302.0" x-pid="1590" x-info="https://www.rsyslog.com"] exiting on signal 15.
+2024-09-10T12:53:30.674255+00:00 template-ct systemd[1]: rsyslog.service: Deactivated successfully.
+2024-09-10T12:53:30.674294+00:00 template-ct systemd[1]: Stopped rsyslog.service - System Logging Service.
+2024-09-10T12:53:30.681053+00:00 template-ct systemd[1]: Starting rsyslog.service - System Logging Service...
+2024-09-10T12:53:30.738159+00:00 template-ct rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2302.0]
+2024-09-10T12:53:30.738212+00:00 template-ct systemd[1]: Started rsyslog.service - System Logging Service.
+2024-09-10T12:53:30.738243+00:00 template-ct rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Permission denied.
+2024-09-10T12:53:30.738267+00:00 template-ct rsyslogd: activation of module imklog failed [v8.2302.0 try https://www.rsyslog.com/e/2145 ]
+2024-09-10T12:53:30.738292+00:00 template-ct rsyslogd: [origin software="rsyslogd" swVersion="8.2302.0" x-pid="5319" x-info="https://www.rsyslog.com"] start
+2024-09-10T12:53:35.408910+00:00 template-ct dbus-daemon[87]: [system] Reloaded configuration
+2024-09-10T12:53:48.732049+00:00 template-ct systemd[1]: session-251.scope: Deactivated successfully.
+2024-09-10T12:53:48.732108+00:00 template-ct systemd[1]: session-251.scope: Consumed 13.888s CPU time.
+2024-09-10T12:53:58.975906+00:00 template-ct systemd[1]: Stopping user@0.service - User Manager for UID 0...
+2024-09-10T12:53:59.005843+00:00 template-ct systemd[2098]: Activating special unit exit.target...
+2024-09-10T12:53:59.006008+00:00 template-ct systemd[2098]: Stopped target default.target - Main User Target.
+2024-09-10T12:53:59.007089+00:00 template-ct systemd[2098]: Stopped target basic.target - Basic System.
+2024-09-10T12:53:59.007126+00:00 template-ct systemd[2098]: Stopped target paths.target - Paths.
+2024-09-10T12:53:59.007157+00:00 template-ct systemd[2098]: Stopped target sockets.target - Sockets.
+2024-09-10T12:53:59.007188+00:00 template-ct systemd[2098]: Reached target shutdown.target - Shutdown.
+2024-09-10T12:53:59.007223+00:00 template-ct systemd[2098]: Stopped target timers.target - Timers.
+2024-09-10T12:53:59.007250+00:00 template-ct systemd[2098]: Finished systemd-exit.service - Exit the Session.
+2024-09-10T12:53:59.007279+00:00 template-ct systemd[2098]: Reached target exit.target - Exit the Session.
+2024-09-10T12:53:59.009535+00:00 template-ct systemd[1]: user@0.service: Deactivated successfully.
+2024-09-10T12:53:59.009877+00:00 template-ct systemd[1]: Stopped user@0.service - User Manager for UID 0.
+2024-09-10T12:53:59.046797+00:00 template-ct systemd[1]: Stopping user-runtime-dir@0.service - User Runtime Directory /run/user/0...
+2024-09-10T12:53:59.048791+00:00 template-ct systemd[1]: run-user-0.mount: Deactivated successfully.
+2024-09-10T12:53:59.049884+00:00 template-ct systemd[1]: user-runtime-dir@0.service: Deactivated successfully.
+2024-09-10T12:53:59.050125+00:00 template-ct systemd[1]: Stopped user-runtime-dir@0.service - User Runtime Directory /run/user/0.
+2024-09-10T12:53:59.051152+00:00 template-ct systemd[1]: Removed slice user-0.slice - User Slice of UID 0.
+2024-09-10T12:53:59.051748+00:00 template-ct systemd[1]: user-0.slice: Consumed 13.935s CPU time.
+2025-03-28T09:41:58.799351+00:00 guacamole systemd[1]: Finished systemd-modules-load.service - Load Kernel Modules.
+2025-03-28T09:41:58.799470+00:00 guacamole systemd[1]: sys-kernel-config.mount: Mount process exited, code=exited, status=32/n/a
+2025-03-28T09:41:58.799477+00:00 guacamole systemd[1]: sys-kernel-config.mount: Failed with result 'exit-code'.
+2025-03-28T09:41:58.799481+00:00 guacamole systemd[1]: Failed to mount sys-kernel-config.mount - Kernel Configuration File System.
+2025-03-28T09:41:58.799484+00:00 guacamole mount[59]: mount: /sys/kernel/config: permission denied.
+2025-03-28T09:41:58.799487+00:00 guacamole mount[59]:        dmesg(1) may have more information after failed mount system call.
+2025-03-28T09:41:58.799491+00:00 guacamole systemd[1]: Starting systemd-journal-flush.service - Flush Journal to Persistent Storage...
+2025-03-28T09:41:58.799496+00:00 guacamole systemd[1]: Starting systemd-sysctl.service - Apply Kernel Variables...
+2025-03-28T09:41:58.799498+00:00 guacamole systemd[1]: Finished systemd-sysusers.service - Create System Users.
+2025-03-28T09:41:58.799501+00:00 guacamole systemd[1]: Starting systemd-tmpfiles-setup-dev.service - Create Static Device Nodes in /dev...
+2025-03-28T09:41:58.799504+00:00 guacamole systemd[1]: Finished systemd-sysctl.service - Apply Kernel Variables.
+2025-03-28T09:41:58.799507+00:00 guacamole systemd[1]: Finished ifupdown-pre.service - Helper to synchronize boot up for ifupdown.
+2025-03-28T09:41:58.799509+00:00 guacamole systemd[1]: Finished nftables.service - nftables.
+2025-03-28T09:41:58.799514+00:00 guacamole systemd[1]: Reached target network-pre.target - Preparation for Network.
+2025-03-28T09:41:58.799517+00:00 guacamole systemd[1]: Finished systemd-journal-flush.service - Flush Journal to Persistent Storage.
+2025-03-28T09:41:58.799519+00:00 guacamole systemd[1]: Finished systemd-tmpfiles-setup-dev.service - Create Static Device Nodes in /dev.
+2025-03-28T09:41:58.799522+00:00 guacamole systemd[1]: Reached target local-fs-pre.target - Preparation for Local File Systems.
+2025-03-28T09:41:58.799525+00:00 guacamole systemd[1]: Reached target local-fs.target - Local File Systems.
+2025-03-28T09:41:58.799527+00:00 guacamole systemd[1]: Starting networking.service - Raise network interfaces...
+2025-03-28T09:41:58.799532+00:00 guacamole systemd[1]: systemd-binfmt.service - Set Up Additional Binary Formats was skipped because of an unmet condition check (ConditionPathIsMountPoint=/proc/sys/fs/binfmt_misc).
+2025-03-28T09:41:58.799535+00:00 guacamole systemd[1]: systemd-machine-id-commit.service - Commit a transient machine-id on disk was skipped because of an unmet condition check (ConditionPathIsMountPoint=/etc/machine-id).
+2025-03-28T09:41:58.799538+00:00 guacamole systemd[1]: systemd-sysext.service - Merge System Extension Images into /usr/ and /opt/ was skipped because no trigger condition checks were met.
+2025-03-28T09:41:58.799541+00:00 guacamole systemd[1]: Starting systemd-tmpfiles-setup.service - Create System Files and Directories...
+2025-03-28T09:41:58.799543+00:00 guacamole systemd[1]: systemd-udevd.service - Rule-based Manager for Device Events and Files was skipped because of an unmet condition check (ConditionPathIsReadWrite=/sys).
+2025-03-28T09:41:58.799548+00:00 guacamole systemd[1]: Finished systemd-tmpfiles-setup.service - Create System Files and Directories.
+2025-03-28T09:41:58.799551+00:00 guacamole systemd[1]: systemd-timesyncd.service - Network Time Synchronization was skipped because of an unmet condition check (ConditionVirtualization=!container).
+2025-03-28T09:41:58.799554+00:00 guacamole systemd[1]: Reached target time-set.target - System Time Set.
+2025-03-28T09:41:58.799556+00:00 guacamole systemd[1]: Starting systemd-update-utmp.service - Record System Boot/Shutdown in UTMP...
+2025-03-28T09:41:58.799559+00:00 guacamole systemd[1]: Starting systemd-networkd.service - Network Configuration...
+2025-03-28T09:41:58.799563+00:00 guacamole systemd[1]: Finished systemd-update-utmp.service - Record System Boot/Shutdown in UTMP.
+2025-03-28T09:41:58.799567+00:00 guacamole systemd[1]: Reached target sysinit.target - System Initialization.
+2025-03-28T09:41:58.799570+00:00 guacamole systemd[1]: Started postfix-resolvconf.path - Watch for resolv.conf updates and restart postfix.
+2025-03-28T09:41:58.799573+00:00 guacamole systemd[1]: Started apt-daily.timer - Daily apt download activities.
+2025-03-28T09:41:58.799576+00:00 guacamole systemd[1]: Started apt-daily-upgrade.timer - Daily apt upgrade and clean activities.
+2025-03-28T09:41:58.799579+00:00 guacamole systemd[1]: Started dpkg-db-backup.timer - Daily dpkg database backup timer.
+2025-03-28T09:41:58.799582+00:00 guacamole systemd[1]: Started e2scrub_all.timer - Periodic ext4 Online Metadata Check for All Filesystems.
+2025-03-28T09:41:58.799586+00:00 guacamole systemd[1]: fstrim.timer - Discard unused blocks once a week was skipped because of an unmet condition check (ConditionVirtualization=!container).
+2025-03-28T09:41:58.799589+00:00 guacamole systemd[1]: Started logrotate.timer - Daily rotation of log files.
+2025-03-28T09:41:58.799592+00:00 guacamole systemd[1]: Started man-db.timer - Daily man-db regeneration.
+2025-03-28T09:41:58.799594+00:00 guacamole systemd[1]: Started systemd-tmpfiles-clean.timer - Daily Cleanup of Temporary Directories.
+2025-03-28T09:41:58.799597+00:00 guacamole systemd[1]: Reached target paths.target - Path Units.
+2025-03-28T09:41:58.799602+00:00 guacamole systemd[1]: Reached target timers.target - Timer Units.
+2025-03-28T09:41:58.799605+00:00 guacamole systemd[1]: Listening on dbus.socket - D-Bus System Message Bus Socket.
+2025-03-28T09:41:58.799608+00:00 guacamole systemd[1]: Listening on ssh.socket - OpenBSD Secure Shell server socket.
+2025-03-28T09:41:58.799611+00:00 guacamole systemd[1]: Reached target sockets.target - Socket Units.
+2025-03-28T09:41:58.799614+00:00 guacamole systemd[1]: systemd-pcrphase-sysinit.service - TPM2 PCR Barrier (Initialization) was skipped because of an unmet condition check (ConditionPathExists=/sys/firmware/efi/efivars/StubPcrKernelImage-4a67b082-0a4c-41cf-b6c7-440b29bb8c4f).
+2025-03-28T09:41:58.799617+00:00 guacamole systemd[1]: Reached target basic.target - Basic System.
+2025-03-28T09:41:58.799621+00:00 guacamole systemd[1]: Started cron.service - Regular background program processing daemon.
+2025-03-28T09:41:58.799624+00:00 guacamole systemd[1]: Starting dbus.service - D-Bus System Message Bus...
+2025-03-28T09:41:58.799627+00:00 guacamole systemd[1]: Starting e2scrub_reap.service - Remove Stale Online ext4 Metadata Check Snapshots...
+2025-03-28T09:41:58.799630+00:00 guacamole systemd[1]: getty-static.service - getty on tty2-tty6 if dbus and logind are not available was skipped because of an unmet condition check (ConditionPathExists=!/usr/bin/dbus-daemon).
+2025-03-28T09:41:58.799633+00:00 guacamole systemd[1]: Started postfix-resolvconf.service - Copies updated resolv.conf to postfix chroot and restarts postfix..
+2025-03-28T09:41:58.799636+00:00 guacamole systemd[1]: Starting rsyslog.service - System Logging Service...
+2025-03-28T09:41:58.799641+00:00 guacamole systemd[1]: Starting systemd-logind.service - User Login Management...
+2025-03-28T09:41:58.799644+00:00 guacamole systemd[1]: systemd-pcrphase.service - TPM2 PCR Barrier (User) was skipped because of an unmet condition check (ConditionPathExists=/sys/firmware/efi/efivars/StubPcrKernelImage-4a67b082-0a4c-41cf-b6c7-440b29bb8c4f).
+2025-03-28T09:41:58.799647+00:00 guacamole systemd[1]: Starting logrotate.service - Rotate log files...
+2025-03-28T09:41:58.799650+00:00 guacamole cron[104]: (CRON) INFO (pidfile fd = 3)
+2025-03-28T09:41:58.799652+00:00 guacamole systemd-networkd[94]: Failed to increase receive buffer size for general netlink socket, ignoring: Operation not permitted
+2025-03-28T09:41:58.799655+00:00 guacamole systemd-networkd[94]: eth0: Link UP
+2025-03-28T09:41:58.799660+00:00 guacamole systemd-networkd[94]: eth0: Gained carrier
+2025-03-28T09:41:58.799663+00:00 guacamole systemd-networkd[94]: lo: Link UP
+2025-03-28T09:41:58.799665+00:00 guacamole systemd-networkd[94]: lo: Gained carrier
+2025-03-28T09:41:58.799668+00:00 guacamole systemd-networkd[94]: Enumeration completed
+2025-03-28T09:41:58.799671+00:00 guacamole systemd[1]: Started systemd-networkd.service - Network Configuration.
+2025-03-28T09:41:58.799674+00:00 guacamole systemd-networkd[94]: eth0: Lost carrier
+2025-03-28T09:41:58.799679+00:00 guacamole systemd-networkd[94]: eth0: Gained carrier
+2025-03-28T09:41:58.799681+00:00 guacamole cron[104]: (CRON) INFO (Running @reboot jobs)
+2025-03-28T09:41:58.799684+00:00 guacamole systemd[1]: postfix-resolvconf.service: Deactivated successfully.
+2025-03-28T09:41:58.799690+00:00 guacamole systemd[1]: Finished networking.service - Raise network interfaces.
+2025-03-28T09:41:58.799693+00:00 guacamole systemd[1]: Reached target network.target - Network.
+2025-03-28T09:41:58.799696+00:00 guacamole systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+2025-03-28T09:41:58.799700+00:00 guacamole systemd[1]: Starting systemd-user-sessions.service - Permit User Sessions...
+2025-03-28T09:41:58.799703+00:00 guacamole systemd[1]: Finished ifupdown-wait-online.service - Wait for network to be configured by ifupdown.
+2025-03-28T09:41:58.799706+00:00 guacamole systemd[1]: Reached target network-online.target - Network is Online.
+2025-03-28T09:41:58.799708+00:00 guacamole systemd[1]: Starting postfix@-.service - Postfix Mail Transport Agent (instance -)...
+2025-03-28T09:41:58.798994+00:00 guacamole rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2302.0]
+2025-03-28T09:41:58.799048+00:00 guacamole rsyslogd: imklog: cannot open kernel log (/proc/kmsg): Permission denied.
+2025-03-28T09:41:58.799071+00:00 guacamole rsyslogd: activation of module imklog failed [v8.2302.0 try https://www.rsyslog.com/e/2145 ]
+2025-03-28T09:41:58.799091+00:00 guacamole rsyslogd: [origin software="rsyslogd" swVersion="8.2302.0" x-pid="110" x-info="https://www.rsyslog.com"] start
+2025-03-28T09:41:58.799413+00:00 guacamole systemd[1]: Started rsyslog.service - System Logging Service.
+2025-03-28T09:41:58.804018+00:00 guacamole systemd[1]: Finished systemd-user-sessions.service - Permit User Sessions.
+2025-03-28T09:41:58.809124+00:00 guacamole systemd[1]: Started console-getty.service - Console Getty.
+2025-03-28T09:41:58.810287+00:00 guacamole systemd[1]: Started container-getty@1.service - Container Getty on /dev/tty1.
+2025-03-28T09:41:58.811647+00:00 guacamole systemd[1]: Started container-getty@2.service - Container Getty on /dev/tty2.
+2025-03-28T09:41:58.811705+00:00 guacamole systemd[1]: Reached target getty.target - Login Prompts.
+2025-03-28T09:41:58.846758+00:00 guacamole systemd[1]: Started dbus.service - D-Bus System Message Bus.
+2025-03-28T09:41:58.847527+00:00 guacamole dbus-daemon[106]: [system] Successfully activated service 'org.freedesktop.systemd1'
+2025-03-28T09:41:58.847724+00:00 guacamole systemd[1]: Started systemd-logind.service - User Login Management.
+2025-03-28T09:41:59.135587+00:00 guacamole systemd[1]: rsyslog.service: Sent signal SIGHUP to main process 110 (rsyslogd) on client request.
